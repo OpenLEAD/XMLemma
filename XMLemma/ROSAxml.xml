@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+
+<PED Tipo="RELATORIOFINALPED" CodigoEmpresa="6631">
+
+	<PD_RelFinalBase>
+		<CodProjeto>??</CodProjeto>
+		<ArquivoPDF>??</ArquivoPDF>
+		<DataIniODS>??</DataIniODS>
+		<DataFimODS>??</DataFimODS>
+		<ProdPrev>S</ProdPrev>
+		<ProdJust>Texto</ProdJust>
+		<ProdEspTec>O produto principal do projeto é um protótipo de um robô
+			para monitoramento e mapeamento em operações de Stoplogs. O protótipo
+			pode ser dividido em 4 subsistemas: unidade de controle submarino,
+			unidade de controle de superfície, software e interface de controle.
+			A unidade de controle submarina é constituída de uma eletrônica
+			embarcada encapsulada em um vaso de pressão, um sonar, uma unidade
+			Pan & Til, um sensor de pressão, um inclinometro e 4 sensores
+			indutivos. A unidade de controle de superfície é constituída de uma
+			eletrônica embarcada encapsulada em uma pelican case e um umbilical
+			de conexão entre sistema de controle da superfície e submarina. A
+			interface de usuário funciona em um tablet com um aplicativo de
+			interface do projeto, se comunicando via Wi-Fi com a unidade de
+			controle de superfície. O software realiza as funções de controle,
+			processamentos e comunicação entre os diferentes subsistemas.
+		</ProdEspTec>
+		<TecPrev> <!-- <TecPrev>Letra</OrigPrev> -->
+			S
+		</TecPrev>
+		<TecJust>Texto</TecJust>
+		<TecDesc>O sistema de monitoramento é constituído dos sensores de
+			inclinação, profundidade e proximidade que são instalados na viga
+			pescadora. Os sensores são suficientes para monitorar todas as
+			etapas
+			do processo de içamento submarino de stoplogs pela viga. As
+			informações são processadas e transmitidas para a interface de
+			controle na superfície. Algoritmos de controle acompanham o
+			processo,
+			levantando alarmes em caso de falhas na operação. O
+			sistema de
+			mapeamento é constituído por um sonar acoplado a uma
+			unidade de pan &
+			til. Estes sensores são instalados na viga
+			pescadora para realizar o
+			mapeamento da região do vão do Stoplog. Os
+			ecos das ondas sonoras
+			emitidas pelo sonar são modeladas em um grid
+			de ocupação
+			probabilístico e filtrados através de um filtro de
+			partícula para
+			determinar qual é o mapa mais provável da região. A
+			reconstrução 3D do
+			ambiente possibilita o operador identificar
+			possíveis detritos
+			submersos no vão.
+		</TecDesc>
+		<AplicPrev>S</AplicPrev>
+		<AplicJust>
+		</AplicJust>
+		<AplicFnc>Um operador da ESBR inseriu e removeu os stoplog, enquanto
+			visualizava a operação a partir do tablet instalado na cabine de
+			controle do guindaste. O sistema funcionou como esperado,
+			monitorando
+			em tempo real todas as etapas da operação. Durante os
+			testes não houve
+			ocorrência de uma falha operacional. Logo, as
+			condições de falhas
+			foram forçadas em testes a seco. O sistema de
+			monitoramento acusou as
+			falhas operacionais simuladas, levantando
+			alarmes visuais e sonoros.
+			Medições foram feitas em 3 profundidades
+			diferentes e em vários
+			ângulos de pan & tilt, fornecendo pontos de
+			vista distintos de uma
+			mesma região. Devido ao alto grau de
+			sedimentação flutuando no rio
+			Madeira, local do experimento, o sonar
+			apresentou um nível de ruído
+			maior do que o padrão. A incerteza
+			alcançada no mapeamento foi de
+			200mm. Nenhum detrito maior do que
+			200mm de diâmetro foi detectado na
+			soleira ou entorno do vão do
+			stoplog. A configuração e uso do software
+			de inspeção está restrito
+			a use por especialista.
+		</AplicFnc>
+		<AplicAbrang> Para o desenvolvimento deste projeto foi realizado uma
+			ampla pesquisa bibliográfica acompanhada por um levantamento
+			detalhado dos equipamentos disponíveis no mercado além de várias
+			iterações de projeto e testes com protótipos em campo. O foco foi
+			alcançar um equilíbrio que garanta robustez para operar
+			repetidamente
+			em um ambiente hostil, implantação fácil e rápida para
+			garantir a
+			usabilidade do sistema, interface de usuário intuitiva
+			para reduzir a
+			formação necessária e aplicabilidade abrangente. ?O
+			projeto representa
+			uma inovação para a prática atual de operações
+			com stoplogs, sendo
+			aplicável a qualquer usina que utilize viga de
+			içamento. A viga é um
+			equipamento padrão em todas hidroelétricas de
+			médio e grande porte no
+			Brasil e no exterior, sendo utilizadas em
+			todas as paradas de máquina
+			que envolvem ensecamento.
+		</AplicAbrang>
+		<AplicAmbito>Stoplogs são barreiras modulares que são empilhadas a
+			jusante e montande do circuito hidráulico, permitindo o isolamento e
+			drenagem da região para manutenção. Um operador empilhas os stoplogs
+			no vao utilizando um guindaste equipado com uma viga pescadora. O
+			sistema do ROSA - Monitoramento possui um conjunto de sensores para
+			instrumentar a viga e prover as informações necessárias para que a
+			operação seja otimizada, o sistema é focado apenas na otimização e
+			redução dos erros de operação de pesca de stoplogs. O sistema de
+			mapeamento foi desenvolvido visando a identificação de detritos em
+			vão de Stoplogs, mas a técnica pode ser expandida e aplicada para
+			mapear outras regiões submersas, detectando, por exemplo, desgaste
+			no
+			concreto por cavitação.
+		</AplicAmbito>
+		<TxDifTec>Texto</TxDifTec>
+
+	</PD_RelFinalBase>
+
+
+	<PD_EquipeEmp>
+		<!-- Empresas Financiadoras -->
+		<Empresas>
+			 
+			<!-- ESBR -->
+			<Empresa>
+				<CodEmpresa>6631</CodEmpresa>
+				 
+				<TipoEmpresa>P</TipoEmpresa>
+				 
+				<!-- Equipe ESBR -->
+				<Equipe>
+					 
+					<EquipeEmpresa>
+						 
+						<NomeMbEqEmp>Breno Bellinati de Carvalho</NomeMbEqEmp>
+						<CpfMbEqEmp>00035241160</CpfMbEqEmp>
+						<TitulacaoMbEqEmp>SU</TitulacaoMbEqEmp>
+						<FuncaoMbEqEmp>GE</FuncaoMbEqEmp>
+						<HhMbEqEmp>Moeda</HhMbEqEmp>
+						<MesMbEqEmp>Texto</MesMbEqEmp>
+						<HoraMesMbEqEmp>Texto</HoraMesMbEqEmp>
+						 
+
+					</EquipeEmpresa>
+					 
+				</Equipe>
+				 
+			</Empresa>
+			 
+			<!-- Fim Equipe ESBR -->
+		</Empresas>
+		 
+		<!-- Fim Equipe Financiadoras -->
+	</PD_EquipeEmp>
+
+
+	<PD_EquipeExec>
+
+		<!--Executoras -->
+		<Executoras>
+			 
+			<!-- UFRJ -->
+			<Executora>
+				 
+				<CNPJExec>7206099900175</CNPJExec>
+				 
+				<RazaoSocialExec>Fundação Coordenação de Projetos, Pesquisas e
+					Estudos Tecnológicos - COPPETEC
+				</RazaoSocialExec>
+				 
+				<UfExec>RJ</UfExec>
+				 
+				<Equipe>
+					 
+					<EquipeExec>
+						<NomeMbEqExec>Ramon Romankevicius Costa</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>31003664687</DocMbEqExec>
+						<TitulacaoMbEqExec>DO</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>CO</FuncaoMbEqExec>
+						<HhMbEqExec>0,00</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</MesMbEqExec>
+						<HoraMesMbEqExec>16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Gabriel Alcantara Costa Silva</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>13675993779</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec>75,00</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</MesMbEqExec>
+						<HoraMesMbEqExec>72,160,160,160,160,160,160,160,160,160,160,160,160,160,160,160
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Eduardo Elael de Melo Soares</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>04528767708</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec>75,00</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</MesMbEqExec>
+						<HoraMesMbEqExec>72,160,160,160,160,160,160,160,160,160,160,160,160,160,160,160
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Renan Salles de Freitas</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>12932581724</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec>75,00</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</MesMbEqExec>
+						<HoraMesMbEqExec>72,160,160,160,160,160,160,160,160,160,160,160,160,160,160,160
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Julia Ramos Campana</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>10251769798</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec>88,31</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</MesMbEqExec>
+						<HoraMesMbEqExec>72,160,160,160,160,160,160,160,160,160,160,160,160,160,160,160
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Alana Monteiro Lima</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>14788121760</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>AA</FuncaoMbEqExec>
+						<HhMbEqExec>38,94</HhMbEqExec>
+						<MesMbEqExec>3,4,5,6,7,8,9,10,11,12,13,14,15,16</MesMbEqExec>
+						<HoraMesMbEqExec>160,160,160,160,160,160,160,160,160,160,160,160,160
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>André Abido Figueiró</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>12420705750</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>CO</FuncaoMbEqExec>
+						<HhMbEqExec>18,95</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</MesMbEqExec>
+						<HoraMesMbEqExec>16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Alessandro Jacoud Peixoto</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>02850368741</DocMbEqExec>
+						<TitulacaoMbEqExec>DO</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>CO</FuncaoMbEqExec>
+						<HhMbEqExec>101,30</HhMbEqExec>
+						<MesMbEqExec>2,3,4,5,6,7,8,9,11,12,13,14,15,16</MesMbEqExec>
+						<HoraMesMbEqExec>44,44,44,44,44,44,44,44,44,44,44,44,44,44
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+
+				</EquipeExec>
+				</Equipe>
+			</Executora>
+		</Executoras>
+		<!-- Fim Equipe UFRJ -->
+	</PD_EquipeExec>
+
+
+	<PD_Etapas>
+		<Etapa>
+			<EtapaN>1</EtapaN>
+			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
+				projeto
+				e análise em campo da problemática
+			</Atividades>
+			<MesExecEtapa>1</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>2</EtapaN>
+			<Atividades>Requisito: Nesta etapa os requisitos do sistema serao
+				especificados através de reunioes com a ESBR e análise em campo da
+				operacao.
+			</Atividades>
+			<MesExecEtapa>1,2</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>3</EtapaN>
+			<Atividades> Contextualização: Levantamento das tecnologias
+				existentes
+				para monitoramento e mapeamento de operacoes de Stoplog
+			</Atividades>
+			<MesExecEtapa>1,2</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>3</EtapaN>
+			<Atividades>Definição do conceito: Definição de uma solução de um
+				robô
+				capaz de operar no ambiente e realizar tarefas de coating
+			</Atividades>
+			<MesExecEtapa>2,3</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>4</EtapaN>
+			<Atividades>Análise do Usuário: Análise dos operadores de pórtico
+				rolante que serao os usuários finais do sistema de monitoramento.
+			</Atividades>
+			<MesExecEtapa>3,4</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>5</EtapaN>
+			<Atividades> Estudo dos fornecedores: Definição dos fornecedores de
+				equipamento
+			</Atividades>
+			<MesExecEtapa>4</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>6</EtapaN>
+			<Atividades>Design do Sistema: Processo de definicao da arquitetura,
+				componentes, mó´dulos e interfaces que satisfazem os requisitos do
+				sistema.
+			</Atividades>
+			<MesExecEtapa>5,6,7</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>7</EtapaN>
+			<Atividades> Manufatura e Aquisicao : Compra e construc¸ao dos
+				componentes definidoss durante a fase de design do sistema. O
+				resultado serão as partes que integradas formarão o robô.
+			</Atividades>
+			<MesExecEtapa>5,6,7,8</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>8</EtapaN>
+			<Atividades>Octomap: Integracao da biblioteca de acumulacao
+				volumétrica ao software de robótica do projeto
+			</Atividades>
+			<MesExecEtapa>5,6,7,8</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>9</EtapaN>
+			<Atividades>Protótipo de Interface: Desenvolvimento de tela
+				sinterativas simples, concentrando apenas no desenvolvimento da
+				parte
+				visual da interface.
+			</Atividades>
+			<MesExecEtapa>5,6,7,8</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>11</EtapaN>
+			<Atividades>Drivers: Protocolos de comunicacao entre o computador
+				embarcado e os sensores comprados
+			</Atividades>
+			<MesExecEtapa>6,7,8,9</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>12</EtapaN>
+			<Atividades>Viajem Jirau - Teste de Sensor: Viagem a Jirau para teste
+				simples dos sensores adiquiridos
+			</Atividades>
+			<MesExecEtapa>8</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>13</EtapaN>
+			<Atividades>Modelagem do Sonar Profiling: Modelagem da resposta da
+				potência do ECO do sonar no mapa de acumulacao volumétrica Octomap.
+			</Atividades>
+			<MesExecEtapa>9,10,11</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>14</EtapaN>
+			<Atividades> Reconstrucao 3D Simples: Vizualisacao 3D de uma
+				acumulacao volumétrica simples (cubo) em Octomap
+			</Atividades>
+			<MesExecEtapa>9</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>14</EtapaN>
+			<Atividades>Integracao Eletrônica: Montagem da eletrônica embarcada
+			</Atividades>
+			<MesExecEtapa>9,10,11,12</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>15</EtapaN>
+			<Atividades>Interface de Usuario: Implementacao da interface de
+				usuário (GUI) do robo, aplicativo para applet Android
+			</Atividades>
+			<MesExecEtapa>9,10,11,12</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>16</EtapaN>
+			<Atividades>Localizacao: Algoritmo de localizacao das medicoes do
+				sonar com relacao ao vao do Stoplog
+			</Atividades>
+			<MesExecEtapa>10,11</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>17</EtapaN>
+			<Atividades>Modelagem de Sonar Imaging: Modelagem da resposta da
+				potência do ECO de sonar tipo imaging no mapa de acumulacao
+				volumétrica Octomap.
+			</Atividades>
+			<MesExecEtapa>12,13,14</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>18</EtapaN>
+			<Atividades> Filtro de Partícula: Implementacao do filtro
+				probabilítico para filtrar as diverss medidas de sonares do meio com
+				relacao a sua distribuicao de probabilidade.
+			</Atividades>
+			<MesExecEtapa>12,13,14</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>19</EtapaN>
+			<Atividades>Integracao Sistema: Integracao electro-mecanica e de
+				software do robô ROSA
+			</Atividades>
+			<MesExecEtapa>12,13</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>20</EtapaN>
+			<Atividades>Viajem Jirau - Teste de Sistema: Testes do protótipo em
+				Jirau
+			</Atividades>
+			<MesExecEtapa>13</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>21</EtapaN>
+			<Atividades>Tuning: Ajustes finos dos resultados da pesquisa baseado
+				nos testes de campo
+			</Atividades>
+			<MesExecEtapa>15,16</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>22</EtapaN>
+			<Atividades>Viajem Jirau - Teste de Sistema: Viajem a Jirau para
+				testes do sistema
+			</Atividades>
+			<MesExecEtapa>15</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>23</EtapaN>
+			<Atividades>Workshop Troca Conhecimento: Viagem a Jirau para treinar
+				a
+				equipe na utilizacao do protótipo e realizacao do workshop de
+				transferencia de conhecimento.
+			</Atividades>
+			<MesExecEtapa>16</MesExecEtapa>
+		</Etapa>
+
+	</PD_Etapas>
+
+
+	<PD_Recursos>
+		<RecursoEmpresa>
+			<CodEmpresa>6631</CodEmpresa>
+			<DestRecursos>
+
+				<DestRecursosExec>
+					<CNPJExec>7206099900175</CNPJExec>
+					<CustoCatContabil>
+						<CategoriaContabil>MC</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Bateria CSP Power CSP12 7 2</NomeItem>
+							<JustificaItem>As baterias serão utilizadas dentro da eletrônica
+								embarcada, como fonte de alimentação alternativa para os
+								diversos
+								dispositivos do projeto: sensores indutivos, sonares,
+								sensores de
+								inclinação e a eletrônica. O carregador é necessário
+								caso a
+								bateria descarregue durante os dias de teste.
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>150</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem> Carregador Kita CM5A2 </NomeItem>
+							<JustificaItem>As baterias serão utilizadas dentro da eletrônica
+								embarcada, como fonte de alimentação alternativa para os
+								diversos
+								dispositivos do projeto: sensores indutivos, sonares,
+								sensores de
+								inclinação e a eletrônica. O carregador é necessário
+								caso a
+								bateria descarregue durante os dias de teste.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>60</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>MULTICABOS 12x24 MPAS 40m</NomeItem>
+							<JustificaItem>Cabo de 24 vias e 40 metros utilizado como
+								umbilical
+								de teste. Terá saída para sensores indutivos, sonar,
+								módulo
+								Ethernet, VCC e GND
+							</JustificaItem>
+							<QtdeItem>40</QtdeItem>
+							<ValorIndItem>12,35</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Resistores CR25 (1/8W - 0,33W) </NomeItem>
+							<JustificaItem>Os componentes eletrônicos são compostos por :
+								resistores, capacitores cerâmicos e chaves gangorra. Serão
+								necessários para o circuito da eletrônica embarcada:
+								liga/desliga
+								da eletrônica.
+							</JustificaItem>
+							<QtdeItem>20</QtdeItem>
+							<ValorIndItem>0,15</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Chave Gangorra Pequena L/D (6 AMP) </NomeItem>
+							<JustificaItem>Os componentes eletrônicos 1 são compostos por :
+								resistores, capacitores cerâmicos e chaves gangorra. Serão
+								necessários para o circuito da eletrônica embarcada:
+								liga/desliga
+								da eletrônica.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1,5</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>C1 Max 232</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 1 são compostos por :
+								resistores, capacitores cerâmicos e chaves gangorra. Serão
+								necessários para o circuito da eletrônica embarcada:
+								liga/desliga
+								da eletrônica.
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>2,8</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Capacitor cerâmico 50V/100V/50V</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 1 são compostos por :
+								resistores, capacitores cerâmicos e chaves gangorra. Serão
+								necessários para o circuito da eletrônica embarcada:
+								liga/desliga
+								da eletrônica.
+							</JustificaItem>
+							<QtdeItem>40</QtdeItem>
+							<ValorIndItem>0,5</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>GAV90 Regulador 7805 </NomeItem>
+							<JustificaItem>Os componentes são necessários para testes da
+								eletrônica. Os reguladores são necessários para converter
+								voltagem
+								de alimentação até o nível de operação 3.3V e 5V,
+								capacitores são
+								usados para filtros de alguns dispositivos
+								analógicos, barra
+								sindal possibilitam teste rápido de conexões
+								sem a necessidade
+								de
+								solda e as barras de pino são utilizadas na
+								protoboard ou placa
+								customizada para plugs de baixa corrente
+							</JustificaItem>
+							<QtdeItem>5</QtdeItem>
+							<ValorIndItem>2</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>CAP Poliéster</NomeItem>
+							<JustificaItem>Os componentes são necessários para testes da
+								eletrônica. Os reguladores são necessários para converter
+								voltagem
+								de alimentação até o nível de operação 3.3V e 5V,
+								capacitores são
+								usados para filtros de alguns dispositivos
+								analógicos, barra
+								sindal possibilitam teste rápido de conexões
+								sem a necessidade
+								de
+								solda e as barras de pino são utilizadas na
+								protoboard ou placa
+								customizada para plugs de baixa corrente
+							</JustificaItem>
+							<QtdeItem>10</QtdeItem>
+							<ValorIndItem>1</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Barra Sindal 10A</NomeItem>
+							<JustificaItem>Os componentes são necessários para testes da
+								eletrônica. Os reguladores são necessários para converter
+								voltagem
+								de alimentação até o nível de operação 3.3V e 5V,
+								capacitores são
+								usados para filtros de alguns dispositivos
+								analógicos, barra
+								sindal possibilitam teste rápido de conexões
+								sem a necessidade
+								de
+								solda e as barras de pino são utilizadas na
+								protoboard ou placa
+								customizada para plugs de baixa corrente
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>5</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Barra de pino</NomeItem>
+							<JustificaItem>Os componentes são necessários para testes da
+								eletrônica. Os reguladores são necessários para converter
+								voltagem
+								de alimentação até o nível de operação 3.3V e 5V,
+								capacitores são
+								usados para filtros de alguns dispositivos
+								analógicos, barra
+								sindal possibilitam teste rápido de conexões
+								sem a necessidade
+								de
+								solda e as barras de pino são utilizadas na
+								protoboard ou placa
+								customizada para plugs de baixa corrente
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>4</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Adaptador tomada 3P/1 Nova </NomeItem>
+							<JustificaItem>Acessórios para testes da eletrônica em campo
+								(Jirau)
+							</JustificaItem>
+							<QtdeItem>5</QtdeItem>
+							<ValorIndItem>6</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Extensão comum 5 metros AC</NomeItem>
+							<JustificaItem>Acessórios para testes da eletrônica em campo
+								(Jirau)
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>16</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>MAX232ACSE+ -CI TRANSM/RECEPT RS232 5.5V SOIC-16
+							</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 2 são compostos por :
+								resistores, capacitores cerâmicos, chips conversores de
+								comunicação RS232, RS485, conversor ADC, regulador de voltagem,
+								microcontroladores, transistores e cristal oscilador. Os
+								componentes Serão utilizados para a montagem parcial da placa de
+								testes e da placa final da eletrônica embarcada. O detalhamento
+								individual da função de cada componente eletrônico é realizado
+								no
+								relatório da placa eletrônica customizada.
+							</JustificaItem>
+							<QtdeItem>5</QtdeItem>
+							<ValorIndItem>16,4446576648133</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>MAX485ESA+ -CI TRANSM/RECEPT RS485/RS4.5 25V SOIC
+							</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 2 são compostos por :
+								resistores, capacitores cerâmicos, chips conversores de
+								comunicação RS232, RS485, conversor ADC, regulador de voltagem,
+								microcontroladores, transistores e cristal oscilador. Os
+								componentes Serão utilizados para a montagem parcial da placa de
+								testes e da placa final da eletrônica embarcada. O detalhamento
+								individual da função de cada componente eletrônico é realizado
+								no
+								relatório da placa eletrônica customizada.
+							</JustificaItem>
+							<QtdeItem>10</QtdeItem>
+							<ValorIndItem>17,8755041037861</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>AD7490BRUZ - CI Conversor A/D TSSOP 28P</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 2 são compostos por :
+								resistores, capacitores cerâmicos, chips conversores de
+								comunicação RS232, RS485, conversor ADC, regulador de voltagem,
+								microcontroladores, transistores e cristal oscilador. Os
+								componentes Serão utilizados para a montagem parcial da placa de
+								testes e da placa final da eletrônica embarcada. O detalhamento
+								individual da função de cada componente eletrônico é realizado
+								no
+								relatório da placa eletrônica customizada.
+							</JustificaItem>
+							<QtdeItem>5</QtdeItem>
+							<ValorIndItem>95,1210590415674</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>CC0603RJNP09BN100 - CAPACITOR CERAMICO MULTI CAMADA
+							</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 2 são compostos por :
+								resistores, capacitores cerâmicos, chips conversores de
+								comunicação RS232, RS485, conversor ADC, regulador de voltagem,
+								microcontroladores, transistores e cristal oscilador. Os
+								componentes Serão utilizados para a montagem parcial da placa de
+								testes e da placa final da eletrônica embarcada. O detalhamento
+								individual da função de cada componente eletrônico é realizado
+								no
+								relatório da placa eletrônica customizada.
+							</JustificaItem>
+							<QtdeItem>15</QtdeItem>
+							<ValorIndItem>0,100763833730474</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>MCB0805R474KCT - CAPACITOR CERAMICO MULTI CAMADAS
+							</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 2 são compostos por :
+								resistores, capacitores cerâmicos, chips conversores de
+								comunicação RS232, RS485, conversor ADC, regulador de voltagem,
+								microcontroladores, transistores e cristal oscilador. Os
+								componentes Serão utilizados para a montagem parcial da placa de
+								testes e da placa final da eletrônica embarcada. O detalhamento
+								individual da função de cada componente eletrônico é realizado
+								no
+								relatório da placa eletrônica customizada.
+							</JustificaItem>
+							<QtdeItem>5</QtdeItem>
+							<ValorIndItem>0,362749801429706</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>TAJD336K016RNJ - CAPACITOR 33UF 16V </NomeItem>
+							<JustificaItem>Os componentes eletrônicos 2 são compostos por :
+								resistores, capacitores cerâmicos, chips conversores de
+								comunicação RS232, RS485, conversor ADC, regulador de voltagem,
+								microcontroladores, transistores e cristal oscilador. Os
+								componentes Serão utilizados para a montagem parcial da placa de
+								testes e da placa final da eletrônica embarcada. O detalhamento
+								individual da função de cada componente eletrônico é realizado
+								no
+								relatório da placa eletrônica customizada.
+							</JustificaItem>
+							<QtdeItem>5</QtdeItem>
+							<ValorIndItem>3,58719248080487</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>U0603R102KCT - CAPACITOR CERAMICO MULTI CAMADAS IN
+							</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 2 são compostos por :
+								resistores, capacitores cerâmicos, chips conversores de
+								comunicação RS232, RS485, conversor ADC, regulador de voltagem,
+								microcontroladores, transistores e cristal oscilador. Os
+								componentes Serão utilizados para a montagem parcial da placa de
+								testes e da placa final da eletrônica embarcada. O detalhamento
+								individual da função de cada componente eletrônico é realizado
+								no
+								relatório da placa eletrônica customizada.
+							</JustificaItem>
+							<QtdeItem>75</QtdeItem>
+							<ValorIndItem>0,0201527667460948</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>U805R104KCT - CAPACITOR CERAMICO MULTI CAMADAS
+							</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 2 são compostos por :
+								resistores, capacitores cerâmicos, chips conversores de
+								comunicação RS232, RS485, conversor ADC, regulador de voltagem,
+								microcontroladores, transistores e cristal oscilador. Os
+								componentes Serão utilizados para a montagem parcial da placa de
+								testes e da placa final da eletrônica embarcada. O detalhamento
+								individual da função de cada componente eletrônico é realizado
+								no
+								relatório da placa eletrônica customizada.
+							</JustificaItem>
+							<QtdeItem>25</QtdeItem>
+							<ValorIndItem>0,0604583002382844</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>MCT0603F104ZCT - CAPACITOR CERAMICO MULTI CAMADAS
+							</NomeItem>
+							<JustificaItem>Os componentes eletrônicos 2 são compostos por :
+								resistores, capacitores cerâmicos, chips conversores de
+								comunicação RS232, RS485, conversor ADC, regulador de voltagem,
+								microcontroladores, transistores e cristal oscilador. Os
+								componentes Serão utilizados para a montagem parcial da placa de
+								testes e da placa final da eletrônica embarcada. O detalhamento
+								individual da função de cada componente eletrônico é realizado
+								no
+								relatório da placa eletrônica customizada.
+							</JustificaItem>
+							<QtdeItem>15</QtdeItem>
+							<ValorIndItem>0,0201527667460948</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>TUBO SILICONE </NomeItem>
+							<JustificaItem>Os tubos e colas de silicone são utilizados nas
+								emendas de cabos submarinos.
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>30</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>COLA SILICONE</NomeItem>
+							<JustificaItem>Os tubos e colas de silicone são utilizados nas
+								emendas de cabos submarinos.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>13</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>KIT SUPRENS AÇO INOX</NomeItem>
+							<JustificaItem>O Kit Suprens Aço Inox contem abraçadeiras
+								metálicas
+								responsáveis pela sustentação da eletrônica embarcada e
+								os
+								dispositivos na viga pescadora.
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>40</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Conversor Serial USB-RS 485</NomeItem>
+							<JustificaItem>O conversor USB-RS485 e utilizado durante testes
+								de
+								comunicação entre PC e sensor de pressão e também PC com
+								microcontrolador.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>399</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Conectores</NomeItem>
+							<JustificaItem></JustificaItem>
+							<QtdeItem></QtdeItem>
+							<ValorIndItem>165</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Placas de Controle</NomeItem>
+							<JustificaItem></JustificaItem>
+							<QtdeItem></QtdeItem>
+							<ValorIndItem>352,6</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Roteador</NomeItem>
+							<JustificaItem></JustificaItem>
+							<QtdeItem></QtdeItem>
+							<ValorIndItem>95</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Bloco de alumínio </NomeItem>
+							<JustificaItem></JustificaItem>
+							<QtdeItem></QtdeItem>
+							<ValorIndItem>1790</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Cabo de Comunicação</NomeItem>
+							<JustificaItem></JustificaItem>
+							<QtdeItem></QtdeItem>
+							<ValorIndItem>6721,03</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+					</ItemDespesa>
+					</CustoCatContabil>
+					<CustoCatContabil>
+						<CategoriaContabil>MP</CategoriaContabil>
+						<ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Profiler Super Seaking e Connector Straight </NomeItem>
+								<JustificaItem>O Sonar será utilizado para realizar o mapeamento
+									3D
+									do trilho do Stoplog. O mapeamento permite que o operador
+									observe
+									se existe ou não detritos no trilho que
+									impossibilitariam
+									o
+									posicionamento correto do Stoplog para a
+									vedação.
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>33683,39</ValorIndItem>
+								<TipoItem>I</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Tablet Samsung - Galaxy Note 10.1 2014</NomeItem>
+								<JustificaItem>O tablet será utilizado para a visualização da
+									interface de usuário, que representa as informações do robô em
+									um
+									formato facilmente compreensível.
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>1583,12</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Sensor Indutivo - NBB20-L2-E2- V1</NomeItem>
+								<JustificaItem>O sensor indutivo será utilizado para detectar o
+									contato entre a garra pescadora e o Stoplog, verificando assim
+									se
+									o mesmo está corretamente enganchado.
+								</JustificaItem>
+								<QtdeItem>6</QtdeItem>
+								<ValorIndItem>166,57</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Notebooks DELL </NomeItem>
+								<JustificaItem>O robô ROSA terá suas funções testados no
+									canteiro
+									de obras da Usina Hidroelétrica Jirau. Logo, para a
+									execução dos
+									testes será necessário Laptops para acompanhar os
+									mesmos e
+									realizar as correções necessárias.
+								</JustificaItem>
+								<QtdeItem>3</QtdeItem>
+								<ValorIndItem>3099,46333333333</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>ENCODER - RM9000</NomeItem>
+								<JustificaItem>O encodear será utilizado para medir a posição
+									angular do gancho da garra pescadora. Auxiliando assim a
+									visualização do processo de acoplagem entre a garra pescadora e
+									o
+									stoplog
+								</JustificaItem>
+								<QtdeItem>3</QtdeItem>
+								<ValorIndItem>1196,53666666667</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>SENSOR DE PRESSÃO - HPXFL</NomeItem>
+								<JustificaItem>O sensor de pressão será utilizado para medir a
+									profundidade do robô durante o processo de inserção e remoção
+									da
+									viga pescadora.
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>1625,5</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Sensor de Inclinação</NomeItem>
+								<JustificaItem>Sensor para medir a inclinação da viga pescador e
+									de
+									suas garras
+								</JustificaItem>
+								<QtdeItem>4</QtdeItem>
+								<ValorIndItem>1098,605</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Pan & Tilt - OE10-102</NomeItem>
+								<JustificaItem>O motor de posicionamento será acoplado ao Sonar
+									2D
+									aumento o grau de liberdade do sistema de mapeamento,
+									possibilitando assim cobrir toda a extensão do trilho do
+									Stoplog
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>30161,93</ValorIndItem>
+								<TipoItem>I</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>PC104</NomeItem>
+								<JustificaItem>Computador embarcado para fazer o processamento
+									das
+									medidas do sensor submarino
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>3778,95</ValorIndItem>
+								<TipoItem>I</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Eletrônica Submarina de ROV customizada, 100m de
+									profundidade com umbilical rugoso a tração
+								</NomeItem>
+								<JustificaItem>Os sensores e atuadores instalados na garra
+									pescadora serão conectados a uma eletrônica central que irá
+									transmitir os dados gerados através de um umbilical de a um
+									sistema de processamento em terra. O sistema é equivalente a um
+									ROV (Veículo Submarino Remotamente Operado), entretanto no caso
+									do
+									ROSA os sensores são espalhados pela da viga pescador.
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>494540,1777</ValorIndItem>
+								<TipoItem>I</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Central de controle de superfície para ROV encapsulada
+									um
+									pelican case aprova d'água
+								</NomeItem>
+								<JustificaItem>Sistema que de transmissão de potência para a
+									eletrônica embarcada e processamento e transmissão sem fio dos
+									dados gerados pelo sistema embarcado.
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>392723,082295082</ValorIndItem>
+								<TipoItem>I</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Case</NomeItem>
+								<JustificaItem></JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>1335</ValorIndItem>
+								<TipoItem>0</TipoItem>
+								<ItemLabE></ItemLabE>
+								<ItemLabN></ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Case de alumínio da Eletrônica </NomeItem>
+								<JustificaItem>Case de alumínio submersível até 30m de
+									profundidade
+									para o primeiro protótipo da eletrônica construído
+									no laboratório
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>9570</ValorIndItem>
+								<TipoItem></TipoItem>
+								<ItemLabE></ItemLabE>
+								<ItemLabN></ItemLabN>
+							</ItemDespesa>
+						</ItemDespesa>
+					</CustoCatContabil>
+					<CustoCatContabil>
+						<CategoriaContabil>VD</CategoriaContabil>
+						<ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Diárias Ref. UHE JIRAU 02 a 06/06/2014</NomeItem>
+								<JustificaItem>Viajem 01 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Testes dos sensores de monitoramento, indutivo,
+									encoder
+									e
+									inclinômetro.
+								</JustificaItem>
+								<QtdeItem>5</QtdeItem>
+								<ValorIndItem>350</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Passagens Aéreas Ref. UHE JIRAU 02 a 06/06/2014
+								</NomeItem>
+								<JustificaItem>Viajem 01 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Testes dos sensores de monitoramento, indutivo,
+									encoder
+									e
+									inclinômetro.
+								</JustificaItem>
+								<QtdeItem>5</QtdeItem>
+								<ValorIndItem>2783,02</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Locação de dois Veículos Ref. UHE 02 a 06/06/2014
+								</NomeItem>
+								<JustificaItem>Viajem 01 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Testes dos sensores de monitoramento, indutivo,
+									encoder
+									e
+									inclinômetro.
+								</JustificaItem>
+								<QtdeItem>2</QtdeItem>
+								<ValorIndItem>990</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Diárias Ref. Atividade em UHE JIRAU 03 a 07/11/14
+								</NomeItem>
+								<JustificaItem>Viajem 02 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Teste dos sensores de mapeamento (sonar e pan & tilt).
+								</JustificaItem>
+								<QtdeItem>4</QtdeItem>
+								<ValorIndItem>400</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Locação de dois Veículos em UHE JIRAU 03 a 07/11/14
+								</NomeItem>
+								<JustificaItem>Viajem 02 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Teste dos sensores de mapeamento (sonar e pan & tilt).
+								</JustificaItem>
+								<QtdeItem>2</QtdeItem>
+								<ValorIndItem>800</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Frete dos equipamento em UHE JIRAU 03 a 07/11/14
+								</NomeItem>
+								<JustificaItem>Viajem 02 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Teste dos sensores de mapeamento (sonar e pan & tilt).
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>3277,43</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Passagens Aéreas de dois Veículos em UHE JIRAU 03 a
+									07/11/14
+								</NomeItem>
+								<JustificaItem>Viajem 02 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Teste dos sensores de mapeamento (sonar e pan & tilt).
+								</JustificaItem>
+								<QtdeItem>4</QtdeItem>
+								<ValorIndItem>2378,42</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Diárias Ref. Atividade em UHE JIRAU a 19/01/14 a
+									23/01/14
+								</NomeItem>
+								<JustificaItem>Viajem 03 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Testes do protótipo da eletrônica embarcada com
+									sensores de
+									monitoramento e mapeamento.
+								</JustificaItem>
+								<QtdeItem>5</QtdeItem>
+								<ValorIndItem>500</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Locação de três Veículos em UHE JIRAU 19/01/14 a
+									23/01/14
+								</NomeItem>
+								<JustificaItem>Viajem 03 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Testes do protótipo da eletrônica embarcada com
+									sensores de
+									monitoramento e mapeamento.
+								</JustificaItem>
+								<QtdeItem>3</QtdeItem>
+								<ValorIndItem>1219,33333333333</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Frete dos equipamento em UHE JIRAU 19/01/14 a 23/01/14
+								</NomeItem>
+								<JustificaItem>Viajem 03 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Testes do protótipo da eletrônica embarcada com
+									sensores de
+									monitoramento e mapeamento.
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>5334,65</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Passagens Aéreas de dois Veículos em UHE JIRAU
+									19/01/14
+									a
+									23/01/14
+								</NomeItem>
+								<JustificaItem>Viajem 03 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Testes do protótipo da eletrônica embarcada com
+									sensores de
+									monitoramento e mapeamento.
+								</JustificaItem>
+								<QtdeItem>5</QtdeItem>
+								<ValorIndItem>2791,23</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Diárias Ref. Atividade em UHE JIRAU a 23/02/14 a
+									27/02/14
+								</NomeItem>
+								<JustificaItem>Viajem 04 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Teste com o protótipo final submarino do robô ROSA.
+								</JustificaItem>
+								<QtdeItem>5</QtdeItem>
+								<ValorIndItem>500</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Locação de três Veículos em UHE JIRAU 23/02/14 a
+									27/02/14
+								</NomeItem>
+								<JustificaItem>Viajem 04 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Teste com o protótipo final submarino do robô ROSA.
+								</JustificaItem>
+								<QtdeItem>3</QtdeItem>
+								<ValorIndItem>1219,33333333333</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Frete dos equipamento em UHE JIRAU 23/02/14 a 27/02/14
+								</NomeItem>
+								<JustificaItem>Viajem 04 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Teste com o protótipo final submarino do robô ROSA.
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>6796,61</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Passagens Aéreas de dois Veículos em UHE JIRAU
+									23/02/14
+									a
+									27/02/14
+								</NomeItem>
+								<JustificaItem>Viajem 04 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Teste com o protótipo final submarino do robô ROSA.
+								</JustificaItem>
+								<QtdeItem>5</QtdeItem>
+								<ValorIndItem>2791,23</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Frete dos robô submarino SeaBotix para UHE JIRAU
+									19/01/14
+									a 23/01/14
+								</NomeItem>
+								<JustificaItem>Viajem 04 para UHE Jirau, Porto Velho para testes
+									em
+									campo. Transporte do robô SeaBotix que foi emprestado ao
+									laboratório pela ESBR como plataforma de teste de sensores.
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>7131,22</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Remanejamento de passagens</NomeItem>
+								<JustificaItem>???????</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>2743,99</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+						</ItemDespesa>
+					</CustoCatContabil>
+					<CustoCatContabil>
+						<CategoriaContabil>ST</CategoriaContabil>
+						<ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Serviço de Software</NomeItem>
+								<JustificaItem>suporte e treinamento para a equipe do projeto;
+									análise, especificação e design do software a ser desenvolvido;
+									participação na implementação dos softwares para reconstrução
+									3D
+									por sonar; integração dos diferentes componentes de
+									biblioteca
+									em
+									um único sistema; e acompanhamento dos testes em
+									campo.
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>225780,76</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Serviço de Mecânica</NomeItem>
+								<JustificaItem>Serviço de consultoria intitulado CAD e
+									detalhamento
+									de componentes mecânicos para o projeto.
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>208123,41</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+						</ItemDespesa>
+					</CustoCatContabil>
+					<CustoCatContabil>
+						<CategoriaContabil>OU</CategoriaContabil>
+						<ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Taxa Administrativa 01</NomeItem>
+								<JustificaItem>Taxa de Administração da fundação COPPETEC (5%)
+									sobre parcela
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>86551,79</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Taxa de Mobilização</NomeItem>
+								<JustificaItem>Taxa de Mobilização de Infraestrutura
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>115200</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Imposto</NomeItem>
+								<JustificaItem>Imposto INSS</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>39379,25</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem> Publicação no DOU</NomeItem>
+								<JustificaItem>Publicação no diário oficial da união
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>151,85</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Serviços de Importação ref. I-088 (Sonar)</NomeItem>
+								<JustificaItem>Despesas de importação do equipamentos
+									internacionais Sonar(despacho, transporte ..)
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>4604,59</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Seguro de Vida</NomeItem>
+								<JustificaItem>Seguro de vida para os pesquisadores como
+									obrigatório pelo contrato com a ESBR
+								</JustificaItem>
+								<QtdeItem>7</QtdeItem>
+								<ValorIndItem>63,754</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Instalação de Lona Fosca</NomeItem>
+								<JustificaItem>Infraestrutura do evento inaugural do projeto
+									realizado no Rio de Janeiro
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>1480</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Buffet para Evento Cooperação empresa ESBR e fundação
+									Coppetec
+								</NomeItem>
+								<JustificaItem>Buffet do evento inaugural do projeto realizado
+									no
+									Rio de Janeiro
+								</JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>2010</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Cerimonialista do Evento Cooperação, ESBR e Fundação
+									Coppetec
+								</NomeItem>
+								<JustificaItem>Cerimonialista do evento inaugural do projeto
+									realizado no Rio de Janeiro
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>630,12</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Serviços de Importação ref. I-087 (Pan e Tilt)
+								</NomeItem>
+								<JustificaItem>Despesas de importação do equipamento
+									Internacional
+									Pan & Tilt (despacho, transporte ..)
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>5043,19</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Encargos</NomeItem>
+								<JustificaItem>Imposto </JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>77,88</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>INSS, REF. NF 100885 </NomeItem>
+								<JustificaItem>Imposto sobre nota</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>14668,46</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Despesas acessórias Ref.I-139</NomeItem>
+								<JustificaItem>Despesas de importação do equipamentos
+									internacionais PC104 (despacho, transporte ..)
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>2992,57</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Animação vídeo Projeto Rosa</NomeItem>
+								<JustificaItem>Vídeo animação do conceito do robô ROSA
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>39999</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>IR da nota Ref. 2014/1001</NomeItem>
+								<JustificaItem>Imposto </JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>10,86</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>ISS da Nota 1112014</NomeItem>
+								<JustificaItem>Imposto sobre nota</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>2968,29</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Despesa Adm. 2ª parcela</NomeItem>
+								<JustificaItem>Taxa de Administração da fundação COPPETEC (5%)
+									sobre parcela
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>34266,4</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Despesa Adm. 3ª parcela</NomeItem>
+								<JustificaItem>Taxa de Administração da fundação COPPETEC (5%)
+									sobre parcela
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>6934,1</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Serv. Gastronômico workshop</NomeItem>
+								<JustificaItem>Buffet no workshop de troca conhecimento em Jirau
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>2963,45</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Serviço de Filmagem promocional do projeto ROSA
+								</NomeItem>
+								<JustificaItem>Serviço de filmagem do workshop de troca de
+									conhecimento em Jirau e demonstração final do sistema do
+									projeto.
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>12226,5</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>ISS da nota 182 Pralinê</NomeItem>
+								<JustificaItem>Imposto sobre nota</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>85,05</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>Serviços de Importação (Eletrônica ROV) </NomeItem>
+								<JustificaItem>Despesas de importação do equipamentos
+									internacionais Eletrônica para ROV transporte ..)
+								</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>1187,51</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+							<ItemDespesa>
+								<NomeItem>ISS NOTA ATUA 85</NomeItem>
+								<JustificaItem>Imposto sobre nota</JustificaItem>
+								<QtdeItem></QtdeItem>
+								<ValorIndItem>643,5</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</ItemDespesa>
+					</CustoCatContabil>
+				</DestRecursosExec>
+			</DestRecursos>
+		</RecursoEmpresa>
+	</PD_Recursos>
+
+
+	<PD_Resultados>
+
+		<PD_ResultadosCP>
+			<IdCP>
+				<TipoCP>ME</TipoCP>
+				<ConclusaoCP>N</ConclusaoCP>
+				<DataCP></DataCP>
+				<DocMmbEqCP>12420705750</DocMmbEqCP>
+				<CNPJInstCP>33663683000116</CNPJInstCP>
+				<AreaCP>Mestrado Engenharia Elétrica</AreaCP>
+				<TituloCP></TituloCP>
+				<ArquivoPDF></ArquivoPDF>
+			</IdCP>
+			<IdCP>
+				<TipoCP>ME</TipoCP>
+				<ConclusaoCP></ConclusaoCP>
+				<DataCP></DataCP>
+				<DocMmbEqCP></DocMmbEqCP>
+				<CNPJInstCP>33663683000116</CNPJInstCP>
+				<AreaCP>Mestrado Engenharia Elétrica</AreaCP>
+				<TituloCP></TituloCP>
+				<ArquivoPDF></ArquivoPDF>
+			</IdCP>
+			<IdCP>
+				<TipoCP>ME</TipoCP>
+				<ConclusaoCP></ConclusaoCP>
+				<DataCP></DataCP>
+				<DocMmbEqCP></DocMmbEqCP>
+				<CNPJInstCP>33663683000116</CNPJInstCP>
+				<AreaCP>Mestrado Engenharia Elétrica</AreaCP>
+				<TituloCP></TituloCP>
+				<ArquivoPDF></ArquivoPDF>
+			</IdCP>
+		</PD_ResultadosCP>
+
+		<PD_ResultadosCT>
+		</PD_ResultadosCT>
+
+		<PD_ResultadosSA> <!-- '<IdSA> ... </IdSA>', deverá ser repetido, sequencialmente, de modo 
+				a apresentar os QUATRO indicadores, conforme Tabela 34. -->
+			<IdSA>
+				<TipoISA>ISA4</TipoISA>
+				<PossibISA>S</PossibISA>
+				<TxtISA>
+					O robo ROSA reduz em até 75% o número de mergulhos interventivos
+					necessários em operacoes de Stoplog. Mergulhos interventivos está
+					entre as profissoes mais perigosas, com taxa de mortalidade
+					significativa.
+				</TxrISA>
+			</IdSA>
+			<IdSA>
+				<TipoISA>ISA3</TipoISA>
+				<PossibISA>S</PossibISA>
+				<TxtISA>
+					Comercializacao de robôs para monitoramento e mapeamento de
+					operacoes de Stoplog.
+				</TxrISA>
+			</IdSA>
+		</PD_ResultadosSA>
+
+		<PD_ResultadosIE>
+			<IdIE>
+				<TipoIE>EE2</TipoIE>
+				<TxtBenefIE>O sistema de monitoramento e mapeamento reduz as falhas
+					de operacao de Stoplogs. Em Jirau, durante um período de dois
+					anos, os problemas de operação com stoplogs resultaram em uma
+					perda de disponibilidade de produção de 37 dias (equivalente a
+					66.442,14MWh)
+				</TxtBenefIE>
+				<UnidBenefIE>MWh</UnidBenefIE>
+				<BaseBenefIE>186,00</BaseBenefIE>
+				<PerBenefIE>100</PerBenefIE>
+				<VlrBenefIE>12.358.238,04</VlrBenefIE>
+			</IdIE>
+
+			<IdIE>
+				<TipoIE>PR1</TipoIE>
+				<TxtBenefIE>Reducao de mergulhos interventivos. Ao longo do período
+					de 2 anosem Jirau foram necessários 25 dias de mergulhos devidoa
+					erros de operacao de Stoplog. O ROSA teria reduzido em 18 dias o
+					número de mergulhos
+				</TxtBenefIE>
+				<UnidBenefI>dias</UnidBenefIE>
+				<BaseBenefIE>35.000</BaseBenefIE>
+				<PerBenefIE>100</PerBenefIE>
+				<VlrBenefIE>630.000,00</VlrBenefIE>
+			</IdIE>
+		</PD_ResultadosIE>
+
+	</PD_Resultados>
+
+
+</PED>
