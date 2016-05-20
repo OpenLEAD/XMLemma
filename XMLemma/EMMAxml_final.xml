@@ -1,660 +1,1274 @@
 <?xml version="1.0" encoding="ISO8859-1"?>
 
 <PED Tipo="RELATORIOFINALPED" CodigoEmpresa="6631">
-    
-<PD_RelFinalBase>
-    
-	<CodProjeto>Código<!-- Código do Projeto de P&D, conforme cadastrado no
-Sistema de Gestão de P&D ANEEL.--></CodProjeto>
 
-	<ArquivoPDF>APLPED6631_RELATORIOFINALPED_9999_S01.PDF<!-- Nome do arquivo em formato PDF do Relatório Final do
-Projeto de P&D, conforme item 2.3. --></ArquivoPDF>
+	<PD_RelFinalBase>
 
-	<DataIniODS>02032015<!-- Data de início de execução (abertura da ODS) do
-Projeto de P&D, no formato numérico DDMMAAAA. --></DataIniODS>
+		<CodProjeto>
+			Código<!-- Código do Projeto de P&D, conforme cadastrado no Sistema de 
+				Gestão de P&D ANEEL. -->
+		</CodProjeto>
 
-	<DataFimODS>30052016<!-- Data de término de execução (fechamento da ODS) do
-Projeto de P&D, no formato numérico DDMMAAAA. --></DataFimODS>
+		<ArquivoPDF>
+			APLPED6631_RELATORIOFINALPED_9999_S01.PDF<!-- Nome do arquivo em formato 
+				PDF do Relatório Final do Projeto de P&D, conforme item 2.3. -->
+		</ArquivoPDF>
 
-	<ProdPrev>S<!-- Produto principal previsto foi alcançado ou superado: S
-(Sim) ou N( o). --></ProdPrev>
-	
-	<ProdJust><!-- Justificativa pelo não-alcance
-do produto principal
-previsto (até 1.000 caracteres). --></ProdJust>
+		<DataIniODS>
+			02032015<!-- Data de início de execução (abertura da ODS) do Projeto de 
+				P&D, no formato numérico DDMMAAAA. -->
+		</DataIniODS>
 
-	<ProdEspTec><!-- Especificação técnica do produto principal obtido (até
-1.000 caracteres). --></ProdEspTec>
+		<DataFimODS>
+			30052016<!-- Data de término de execução (fechamento da ODS) do Projeto 
+				de P&D, no formato numérico DDMMAAAA. -->
+		</DataFimODS>
 
-	<TecPrev>Letra<!-- Técnica prevista foi implementada: S (Sim) ou N (Não). --></TecPrev>
-	
-	<TecJust>Texto<!-- Justificativa pela nãoimplementação
-da técnica prevista
-(até 1.000 caracteres). --></TecJust>
+		<ProdPrev>
+			S<!-- Produto principal previsto foi alcançado ou superado: S (Sim) ou 
+				N( o). -->
+		</ProdPrev>
 
-	<TecDesc>Texto<!-- Descrição, sucinta, da técnica empregada (até 1.000
-caracteres). --></TecDesc>
+		<ProdJust><!-- Justificativa pelo não-alcance do produto principal previsto 
+				(até 1.000 caracteres). -->
+		</ProdJust>
 
-	<AplicPrev>Letra<!-- Aplicabilidade prevista foi alcançada ou superada: S
-(Sim) ou N (Não). --></AplicPrev>
+		<ProdEspTec><!-- Especificação técnica do produto principal obtido (até 
+				1.000 caracteres). -->
+		</ProdEspTec>
 
-	<AplicJust>Texto<!-- Justificativa pelo nãoalcance
-da aplicabilidade prevista
-(até 1.000 caracteres). --></AplicJust>
+		<TecPrev>
+			Letra<!-- Técnica prevista foi implementada: S (Sim) ou N (Não). -->
+		</TecPrev>
 
-	<AplicFnc>Texto<!-- Descrição, sucinta, dos resultados dos testes de
-funcionalidade do produto principal e suas restrições
-(até 1.000 caracteres). --></AplicFnc>
+		<TecJust>
+			Texto<!-- Justificativa pela nãoimplementação da técnica prevista (até 
+				1.000 caracteres). -->
+		</TecJust>
 
-	<AplicAbrang>Texto<!-- Descrição da abrangência de aplicação do produto
-principal e suas restrições (até 1.000 caracteres). --></AplicAbrang>
+		<TecDesc>
+			Texto<!-- Descrição, sucinta, da técnica empregada (até 1.000 caracteres). -->
+		</TecDesc>
 
-	<AplicAmbito>Texto<!-- Descrição do âmbito de aplicação do produto principal e
-suas restrições (até 1.000 caracteres). --></AplicAmbito>
+		<AplicPrev>
+			Letra<!-- Aplicabilidade prevista foi alcançada ou superada: S (Sim) ou 
+				N (Não). -->
+		</AplicPrev>
 
-	<TxDifTec>Texto<!-- Descrição, sucinta, das atividades relacionadas à
-transferência/difusão tecnológica (até 500 caracteres). --></TxDifTec>
+		<AplicJust>
+			Texto<!-- Justificativa pelo nãoalcance da aplicabilidade prevista (até 
+				1.000 caracteres). -->
+		</AplicJust>
 
-</PD_RelFinalBase>
+		<AplicFnc>
+			Texto<!-- Descrição, sucinta, dos resultados dos testes de funcionalidade 
+				do produto principal e suas restrições (até 1.000 caracteres). -->
+		</AplicFnc>
 
-<PD_EquipeEmp>
-   <!-- Empresas Financiadoras  -->
-   <Empresas> 
-      <!-- ESBR  -->
-      <Empresa>
-         <CodEmpresa>6631</CodEmpresa> 
-         <TipoEmpresa>P</TipoEmpresa> 
-         <!-- Equipe ESBR TODO: Conferir membros das equipes  -->
-         <Equipe> 
-            <EquipeEmpresa> 
-                <NomeMbEqEmp>Texto</NomeMbEqEmp>
-				<CpfMbEqEmp>Número</CpfMbEqEmp>
-				<TitulacaoMbEqEmp>Código</TitulacaoMbEqEmp>
-				<FuncaoMbEqEmp>Código</FuncaoMbEqEmp>
-				<HhMbEqEmp>Moeda</HhMbEqEmp>
-				<MesMbEqEmp>Texto</MesMbEqEmp>
-				<HoraMesMbEqEmp>Texto</HoraMesMbEqEmp>
-            </EquipeEmpresa> 
-              
-			<EquipeEmpresa>
+		<AplicAbrang>
+			Texto<!-- Descrição da abrangência de aplicação do produto principal e 
+				suas restrições (até 1.000 caracteres). -->
+		</AplicAbrang>
+
+		<AplicAmbito>
+			Texto<!-- Descrição do âmbito de aplicação do produto principal e suas 
+				restrições (até 1.000 caracteres). -->
+		</AplicAmbito>
+
+		<TxDifTec>
+			Texto<!-- Descrição, sucinta, das atividades relacionadas à transferência/difusão 
+				tecnológica (até 500 caracteres). -->
+		</TxDifTec>
+
+	</PD_RelFinalBase>
+
+	<PD_EquipeEmp>
+		<!-- Empresas Financiadoras -->
+		<Empresas>
+			 
+			<!-- ESBR -->
+			<Empresa>
+				<CodEmpresa>6631</CodEmpresa>
 				 
-				<NomeMbEqEmp>Breno Bellinati de Carvalho</NomeMbEqEmp>
-				<CpfMbEqEmp>00035241160</CpfMbEqEmp>
-				<TitulacaoMbEqEmp>SU</TitulacaoMbEqEmp>
-				<FuncaoMbEqEmp>GE</FuncaoMbEqEmp>
-				<HhMbEqEmp>Moeda</HhMbEqEmp>
-				<MesMbEqEmp>Texto</MesMbEqEmp>
-				<HoraMesMbEqEmp>Texto</HoraMesMbEqEmp>
-				
-			</EquipeEmpresa>
-         </Equipe> 
-      </Empresa> 
-      <!-- Fim Equipe ESBR   -->
-   </Empresas>
-</PD_EquipeEmp>
+				<TipoEmpresa>P</TipoEmpresa>
+				 
+				<!-- Equipe ESBR TODO: Conferir membros das equipes -->
+				<Equipe>
+					<EquipeEmpresa>
+						<NomeMbEqEmp>Breno Bellinati de Carvalho</NomeMbEqEmp>
+						<CpfMbEqEmp>00035241160</CpfMbEqEmp>
+						<TitulacaoMbEqEmp>SU</TitulacaoMbEqEmp>
+						<FuncaoMbEqEmp>GE</FuncaoMbEqEmp>
+						<HhMbEqEmp>Moeda</HhMbEqEmp>
+						<MesMbEqEmp>Texto</MesMbEqEmp>
+						<HoraMesMbEqEmp>Texto</HoraMesMbEqEmp>
+					</EquipeEmpresa>
+				</Equipe>
+				 
+			</Empresa>
+			 
+			<!-- Fim Equipe ESBR -->
+		</Empresas>
+	</PD_EquipeEmp>
 
 
-<PD_EquipeExec>
+	<PD_EquipeExec>
 
 		<!--Executoras -->
-	<Executoras>
-		 
-		<!-- UFRJ -->
-		<Executora>
+		<Executoras>
 			 
-			<CNPJExec>7206099900175</CNPJExec>
-			 
-			<RazaoSocialExec>Fundação Coordenação de Projetos, Pesquisas e
-				Estudos Tecnológicos - COPPETEC
-			</RazaoSocialExec>
-			 
-			<UfExec>RJ</UfExec>
-			 
-			<Equipe>
+			<!-- UFRJ -->
+			<Executora>
 				 
-				<EquipeExec>
-					<NomeMbEqExec>Ramon Romankevicius Costa</NomeMbEqExec>
-					<BRMbEqExec>S</BRMbEqExec>
-					<DocMbEqExec>31003664687</DocMbEqExec>
-					<TitulacaoMbEqExec>DO</TitulacaoMbEqExec>
-					<FuncaoMbEqExec>CO</FuncaoMbEqExec>
-					<HhMbEqExec>81,25</HhMbEqExec>
-					<MesMbEqExec>5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
-					<HoraMesMbEqExec>64,64,64,64,64,64,64,64,64,64,64
-					</HoraMesMbEqExec>
-				</EquipeExec>
-	
-				<EquipeExec>
-					<NomeMbEqExec>Gabriel Alcantara Costa Silva</NomeMbEqExec>
-					<BRMbEqExec>S</BRMbEqExec>
-					<DocMbEqExec>13675993779</DocMbEqExec>
-					<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-					<FuncaoMbEqExec>PE</FuncaoMbEqExec>
-					<HhMbEqExec>82,91</HhMbEqExec>
-					<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
-					<HoraMesMbEqExec> 156,163,170,163,163,5,147,163,163,163,163,161,163,163
-					</HoraMesMbEqExec>
-				</EquipeExec>
-	
-				<EquipeExec>
-					<NomeMbEqExec>Eduardo Elael de Melo Soares</NomeMbEqExec>
-					<BRMbEqExec>S</BRMbEqExec>
-					<DocMbEqExec>04528767708</DocMbEqExec>
-					<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-					<FuncaoMbEqExec>PE</FuncaoMbEqExec>
-					<HhMbEqExec>82,91</HhMbEqExec>
-					<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
-					<HoraMesMbEqExec>156,163,170,163,163,163,26,148,163,163,163,161,163,163
-					</HoraMesMbEqExec>
-				</EquipeExec>
-	
-				<EquipeExec>
-					<NomeMbEqExec>Renan Salles de Freitas</NomeMbEqExec>
-					<BRMbEqExec>S</BRMbEqExec>
-					<DocMbEqExec>12932581724</DocMbEqExec>
-					<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-					<FuncaoMbEqExec>PE</FuncaoMbEqExec>
-					<HhMbEqExec>82,91</HhMbEqExec>
-					<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
-					<HoraMesMbEqExec>156,163,170,10,154,163,163,163,163,163,163,161,163,163
-					</HoraMesMbEqExec>
-				</EquipeExec>
-	
-				<EquipeExec>
-					<NomeMbEqExec>Julia Ramos Campana</NomeMbEqExec>
-					<BRMbEqExec>S</BRMbEqExec>
-					<DocMbEqExec>10251769798</DocMbEqExec>
-					<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-					<FuncaoMbEqExec>PE</FuncaoMbEqExec>
-					<HhMbEqExec>92,26</HhMbEqExec>
-					<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
-					<HoraMesMbEqExec>52,166,172,165,166,165,166,165,165,166,153,153,151,160,160
-					</HoraMesMbEqExec>
-				</EquipeExec>
-	
-				<EquipeExec>
-					<NomeMbEqExec>Alana Monteiro Lima</NomeMbEqExec>
-					<BRMbEqExec>S</BRMbEqExec>
-					<DocMbEqExec>14788121760</DocMbEqExec>
-					<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-					<FuncaoMbEqExec>AA</FuncaoMbEqExec>
-					<HhMbEqExec>59,13</HhMbEqExec>
-					<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
-					<HoraMesMbEqExec>101,161,168,7,159,165,165,166,166,167,154,153,152,165,166
-					</HoraMesMbEqExec>
-				</EquipeExec>
-	
-				<EquipeExec>
-					<NomeMbEqExec>Estevão Fróes Ferrão</NomeMbEqExec>
-					<BRMbEqExec>S</BRMbEqExec>
-					<DocMbEqExec>11157128700</DocMbEqExec>
-					<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-					<FuncaoMbEqExec>AA</FuncaoMbEqExec>
-					<HhMbEqExec>80,59</HhMbEqExec>
-					<MesMbEqExec>4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
-					<HoraMesMbEqExec>110,163,164,165,164,164,165,168,168,165,160,160
-					</HoraMesMbEqExec>
-				</EquipeExec>
-				
-				<EquipeExec>
-					<NomeMbEqExec>Isabela Lima de Oliveira</NomeMbEqExec>
-					<BRMbEqExec>S</BRMbEqExec>
-					<DocMbEqExec>12932290754</DocMbEqExec>
-					<TitulacaoMbEqExec>DO</TitulacaoMbEqExec>
-					<FuncaoMbEqExec>CO</FuncaoMbEqExec>
-					<HhMbEqExec>15,05</HhMbEqExec>
-					<MesMbEqExec>6,7,8,9,11,12,13,14,15</MesMbEqExec>
-					<HoraMesMbEqExec>64,64,64,64,64,64,64,64,64,64
-					</HoraMesMbEqExec>
-				</EquipeExec>
-	
-	
-			</EquipeExec>
-			</Equipe>
-		</Executora>
-</Executoras>
-<!-- Fim Equipe UFRJ -->
-</PD_EquipeExec>
+				<CNPJExec>7206099900175</CNPJExec>
+				 
+				<RazaoSocialExec>Fundação Coordenação de Projetos, Pesquisas e
+					Estudos Tecnológicos - COPPETEC
+				</RazaoSocialExec>
+				 
+				<UfExec>RJ</UfExec>
+				 
+				<Equipe>
+					 
+					<EquipeExec>
+						<NomeMbEqExec>Ramon Romankevicius Costa</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>31003664687</DocMbEqExec>
+						<TitulacaoMbEqExec>DO</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>CO</FuncaoMbEqExec>
+						<HhMbEqExec>81,25</HhMbEqExec>
+						<MesMbEqExec>5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
+						<HoraMesMbEqExec>64,64,64,64,64,64,64,64,64,64,64
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Gabriel Alcantara Costa Silva</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>13675993779</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec>82,91</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
+						<HoraMesMbEqExec>
+							156,163,170,163,163,5,147,163,163,163,163,161,163,163
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Eduardo Elael de Melo Soares</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>04528767708</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec>82,91</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
+						<HoraMesMbEqExec>156,163,170,163,163,163,26,148,163,163,163,161,163,163
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Renan Salles de Freitas</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>12932581724</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec>82,91</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
+						<HoraMesMbEqExec>156,163,170,10,154,163,163,163,163,163,163,161,163,163
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Julia Ramos Campana</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>10251769798</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec>92,26</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
+						<HoraMesMbEqExec>52,166,172,165,166,165,166,165,165,166,153,153,151,160,160
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Alana Monteiro Lima</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>14788121760</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>AA</FuncaoMbEqExec>
+						<HhMbEqExec>59,13</HhMbEqExec>
+						<MesMbEqExec>1,2,3,4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
+						<HoraMesMbEqExec>101,161,168,7,159,165,165,166,166,167,154,153,152,165,166
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Estevão Fróes Ferrão</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>11157128700</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>AA</FuncaoMbEqExec>
+						<HhMbEqExec>80,59</HhMbEqExec>
+						<MesMbEqExec>4,5,6,7,8,9,10,11,12,13,14,15</MesMbEqExec>
+						<HoraMesMbEqExec>110,163,164,165,164,164,165,168,168,165,160,160
+						</HoraMesMbEqExec>
+					</EquipeExec>
+
+					<EquipeExec>
+						<NomeMbEqExec>Isabela Lima de Oliveira</NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>12932290754</DocMbEqExec>
+						<TitulacaoMbEqExec>DO</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>CO</FuncaoMbEqExec>
+						<HhMbEqExec>15,05</HhMbEqExec>
+						<MesMbEqExec>6,7,8,9,11,12,13,14,15</MesMbEqExec>
+						<HoraMesMbEqExec>64,64,64,64,64,64,64,64,64,64</HoraMesMbEqExec>
+					</EquipeExec>
+				</Equipe>
+			</Executora>
+
+			<!-- Equipe Rijeza -->
+			<Executora>
+				 
+				<CNPJExec>05034416000144</CNPJExec>
+				 
+				<RazaoSocialExec>RIJEZA INDUSTRIA METALURGICA LTDA</RazaoSocialExec>
+				 
+				<UfExec>RS</UfExec>
+				 
+				<Equipe>
+					 
+					<EquipeExec>
+						<NomeMbEqExec> Leonardo Geremia </NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>81178298000</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec><!-- Valor da hora trabalhada do membro da entidade executora 
+								selecionado. Usar a vírgula ',' como separador decimal. -->
+						</HhMbEqExec>
+						<MesMbEqExec><!-- Meses dedicados ao projeto, separados por vírgula, 
+								do membro da entidade executora selecionado -->
+						</MesMbEqExec>
+						<HoraMesMbEqExec><!-- Quantidade de horas dedicadas ao projeto para 
+								cada mês de atuação, separada por vírgulas, do membro da entidade executora 
+								selecionado -->
+						</HoraMesMbEqExec>
+					</EquipeExec>
+					 
+					<EquipeExec>
+						<NomeMbEqExec> Filipe Guerin </NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>00778998061</DocMbEqExec>
+						<TitulacaoMbEqExec>TE</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>AT</FuncaoMbEqExec>
+						<HhMbEqExec><!-- Valor da hora trabalhada do membro da entidade executora 
+								selecionado. Usar a vírgula ',' como separador decimal. -->
+						</HhMbEqExec>
+						<MesMbEqExec><!-- Meses dedicados ao projeto, separados por vírgula, 
+								do membro da entidade executora selecionado -->
+						</MesMbEqExec>
+						<HoraMesMbEqExec><!-- Quantidade de horas dedicadas ao projeto para 
+								cada mês de atuação, separada por vírgulas, do membro da entidade executora 
+								selecionado -->
+						</HoraMesMbEqExec>
+					</EquipeExec>
+					 
+
+					 
+					<EquipeExec>
+						<NomeMbEqExec> Gabriel Cogo </NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>00920504094</DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec><!-- Valor da hora trabalhada do membro da entidade executora 
+								selecionado. Usar a vírgula ',' como separador decimal. -->
+						</HhMbEqExec>
+						<MesMbEqExec><!-- Meses dedicados ao projeto, separados por vírgula, 
+								do membro da entidade executora selecionado -->
+						</MesMbEqExec>
+						<HoraMesMbEqExec><!-- Quantidade de horas dedicadas ao projeto para 
+								cada mês de atuação, separada por vírgulas, do membro da entidade executora 
+								selecionado -->
+						</HoraMesMbEqExec>
+					</EquipeExec>
+					 
+
+					 
+					<EquipeExec>
+						<NomeMbEqExec> Silvio da Silva </NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>03757286006</DocMbEqExec>
+						<TitulacaoMbEqExec>TE</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>AT</FuncaoMbEqExec>
+						<HhMbEqExec><!-- Valor da hora trabalhada do membro da entidade executora 
+								selecionado. Usar a vírgula ',' como separador decimal. -->
+						</HhMbEqExec>
+						<MesMbEqExec><!-- Meses dedicados ao projeto, separados por vírgula, 
+								do membro da entidade executora selecionado -->
+						</MesMbEqExec>
+						<HoraMesMbEqExec><!-- Quantidade de horas dedicadas ao projeto para 
+								cada mês de atuação, separada por vírgulas, do membro da entidade executora 
+								selecionado -->
+						</HoraMesMbEqExec>
+					</EquipeExec>
+					 
+
+					 
+					<EquipeExec>
+						<NomeMbEqExec> Darlan Geremia </NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>90274466015 </DocMbEqExec>
+						<TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>PE</FuncaoMbEqExec>
+						<HhMbEqExec><!-- Valor da hora trabalhada do membro da entidade executora 
+								selecionado. Usar a vírgula ',' como separador decimal. -->
+						</HhMbEqExec>
+						<MesMbEqExec><!-- Meses dedicados ao projeto, separados por vírgula, 
+								do membro da entidade executora selecionado -->
+						</MesMbEqExec>
+						<HoraMesMbEqExec><!-- Quantidade de horas dedicadas ao projeto para 
+								cada mês de atuação, separada por vírgulas, do membro da entidade executora 
+								selecionado -->
+						</HoraMesMbEqExec>
+					</EquipeExec>
+					 
+					 
+					<EquipeExec>
+						<NomeMbEqExec> Jeferson Porto </NomeMbEqExec>
+						<BRMbEqExec>S</BRMbEqExec>
+						<DocMbEqExec>77240189015 </DocMbEqExec>
+						<TitulacaoMbEqExec>TE</TitulacaoMbEqExec>
+						<FuncaoMbEqExec>AT</FuncaoMbEqExec>
+						<HhMbEqExec><!-- Valor da hora trabalhada do membro da entidade executora 
+								selecionado. Usar a vírgula ',' como separador decimal. -->
+						</HhMbEqExec>
+						<MesMbEqExec><!-- Meses dedicados ao projeto, separados por vírgula, 
+								do membro da entidade executora selecionado -->
+						</MesMbEqExec>
+						<HoraMesMbEqExec><!-- Quantidade de horas dedicadas ao projeto para 
+								cada mês de atuação, separada por vírgulas, do membro da entidade executora 
+								selecionado -->
+						</HoraMesMbEqExec>
+					</EquipeExec>
+					 
+
+					<EquipeExec />
+				</Equipe>
+			</Executora>
+		</Executoras>
+		<!-- Fim Equipe UFRJ -->
+	</PD_EquipeExec>
 
 
-<PD_Etapas>
+	<PD_Etapas>
 		<Etapa>
 			<EtapaN>1</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do projeto e análise em campo da problemática </Atividades>
+			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
+				projeto e análise em campo da problemática
+			</Atividades>
 			<MesExecEtapa>1</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>2</EtapaN>
-			<Atividades>Fazer levantamento dos requisitos que afetam a instalação e utilização de um robô dentro circuito hidráulico. Etapa executada como previsto. Foram levantados todos os requisitos de acesso, ambiente e processo de coating.</Atividades>
+			<Atividades>Fazer levantamento dos requisitos que afetam a instalação
+				e utilização de um robô dentro circuito hidráulico. Etapa executada
+				como previsto. Foram levantados todos os requisitos de acesso,
+				ambiente e processo de coating.
+			</Atividades>
 			<MesExecEtapa>1,2</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>3</EtapaN>
-			<Atividades>Levantamento das tecnologias existentes no para aplicações de revestimento em ambientes confinados. Etapa executada como previsto. Diversas tecnologias foram pesquisadas, como o robô scompi da hidroquebec. Nenhuma das soluções atuais atendiam os requisitos de operação do projeto.</Atividades>
+			<Atividades>Levantamento das tecnologias existentes no para
+				aplicações de revestimento em ambientes confinados. Etapa executada
+				como previsto. Diversas tecnologias foram pesquisadas, como o robô
+				scompi da hidroquebec. Nenhuma das soluções atuais atendiam os
+				requisitos de operação do projeto.
+			</Atividades>
 			<MesExecEtapa>1,2</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>4</EtapaN>
-			<Atividades>Definição de uma solução de um robô capaz de operar no ambiente e realizar tarefas de revestimento. Etapa executada como previsto. Foram levantados 3 conceitos viáveis, os quais foram analisados chegando ao conceito proposto dentro do projeto. Utilizar um manipulador industrial, acessando o circuito hidráulico pela escotilha de acesso, com movimentação através de trilhos modulares e alinhamento, mapeamento e planejamento de trajetória baseado em scan 3D a laser do ambiente.</Atividades>
+			<Atividades>Definição de uma solução de um robô capaz de operar no
+				ambiente e realizar tarefas de revestimento. Etapa executada como
+				previsto. Foram levantados 3 conceitos viáveis, os quais foram
+				analisados chegando ao conceito proposto dentro do projeto. Utilizar
+				um manipulador industrial, acessando o circuito hidráulico pela
+				escotilha de acesso, com movimentação através de trilhos modulares e
+				alinhamento, mapeamento e planejamento de trajetória baseado em scan
+				3D a laser do ambiente.
+			</Atividades>
 			<MesExecEtapa>1,2,3,4</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>5</EtapaN>
-			<Atividades>Definição dos fornecedores do equipamento necessário para a pesquisa. Etapa executada como previsto. Foram analisados mais de 50 modelos de manipuladores distintos, sendo que 5 atendiam os requisitos do problema como possíveis soluções. </Atividades>
+			<Atividades>Definição dos fornecedores do equipamento necessário para
+				a pesquisa. Etapa executada como previsto. Foram analisados mais de
+				50 modelos de manipuladores distintos, sendo que 5 atendiam os
+				requisitos do problema como possíveis soluções.
+			</Atividades>
 			<MesExecEtapa>4</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>6</EtapaN>
-			<Atividades>Foi realizada uma visita inicial a campo para juntamente com revisão bibliográfica sobre o tema "desgaste" coletar dados de campo através de inspeção nas pás das turbinas. Essas inspeções foram realizadas ao longo do projeto para confrontar com o que existe na bibliografia.</Atividades>
+			<Atividades>Foi realizada uma visita inicial a campo para juntamente
+				com revisão bibliográfica sobre o tema "desgaste" coletar dados de
+				campo através de inspeção nas pás das turbinas. Essas inspeções
+				foram realizadas ao longo do projeto para confrontar com o que
+				existe na bibliografia.
+			</Atividades>
 			<MesExecEtapa>4,5</MesExecEtapa>
 		</Etapa>
-		
-		
-		
+
+
+
 		<Etapa>
 			<EtapaN>7</EtapaN>
-			<Atividades>Animação 3D da solução conceito. Houve atraso no processo de contratação e aprovação do script. A tarefa foi executada com 3 meses de atraso. Entretanto, o mesmo não impactou no projeto, pois não era uma tarefa de pré-requisito. </Atividades>
+			<Atividades>Animação 3D da solução conceito. Houve atraso no processo
+				de contratação e aprovação do script. A tarefa foi executada com 3
+				meses de atraso. Entretanto, o mesmo não impactou no projeto, pois
+				não era uma tarefa de pré-requisito.
+			</Atividades>
 			<MesExecEtapa>5,6,7</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>8</EtapaN>
-			<Atividades>Design em CAD / Solidworks do conceito do robô. Tarefa executada como prevista. Foram realizado diversos designs para possíveis bases para a solução conceito, assim como análises geométricas, cinemática, dinâmica e de manipulabilidade para definir o manipulador.</Atividades>
+			<Atividades>Design em CAD / Solidworks do conceito do robô. Tarefa
+				executada como prevista. Foram realizado diversos designs para
+				possíveis bases para a solução conceito, assim como análises
+				geométricas, cinemática, dinâmica e de manipulabilidade para definir
+				o manipulador.
+			</Atividades>
 			<MesExecEtapa>5,6,7/MesExecEtapa>
+			</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>9</EtapaN>
-			<Atividades>Foram definidos os testes e a sequência de testes a serem realizados para cada modificação de equipamento e cada material de coating utilizado.	</Atividades>
+			<Atividades>Foram definidos os testes e a sequência de testes a serem
+				realizados para cada modificação de equipamento e cada material de
+				coating utilizado.
+			</Atividades>
 			<MesExecEtapa>5,6,7,8</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>10</EtapaN>
-			<Atividades>Definir o algoritmo/técnica que irá localizar o robô com relação a turbina. Tarefa executada como prevista. Foi determinado que o melhor e mais preciso método é escanear o robô e a pá com um laser de metrologia e a estimar posição relativa das nuvens de pontos resultantes. </Atividades>
+			<Atividades>Definir o algoritmo/técnica que irá localizar o robô com
+				relação a turbina. Tarefa executada como prevista. Foi determinado
+				que o melhor e mais preciso método é escanear o robô e a pá com um
+				laser de metrologia e a estimar posição relativa das nuvens de
+				pontos resultantes.
+			</Atividades>
 			<MesExecEtapa>5,6,7,8</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>11</EtapaN>
-			<Atividades>Algoritmo que irá avaliar e mapear a qualidade do revestimento. Tarefa executada como prevista. Foi determinado que o método mais eficiente é utilizar um humano para rapidamente realizar uma amostragem de alguns pontos com sensor ultra-som manual. A solução robótica seria em uma alusão "matar um mosquito com basuca". </Atividades>
+			<Atividades>Algoritmo que irá avaliar e mapear a qualidade do
+				revestimento. Tarefa executada como prevista. Foi determinado que o
+				método mais eficiente é utilizar um humano para rapidamente realizar
+				uma amostragem de alguns pontos com sensor ultra-som manual. A
+				solução robótica seria em uma alusão "matar um mosquito com basuca".
+			</Atividades>
 			<MesExecEtapa>5,6,7,8</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>12</EtapaN>
-			<Atividades>Interface gráfica de controle e utilização do sistema. Essa tarefa foi estendida para 8 meses, se tornando uma teses de mestrado dada sua complexidade. A solução conceito possui um volume muito grande de interação e informação para o usuário. Logo, adotou-se um estudo metódico, estabelecendo-se toda a metodologia para determinar a interface e como cada informação será representada. </Atividades>
+			<Atividades>Interface gráfica de controle e utilização do sistema.
+				Essa tarefa foi estendida para 8 meses, se tornando uma teses de
+				mestrado dada sua complexidade. A solução conceito possui um volume
+				muito grande de interação e informação para o usuário. Logo,
+				adotou-se um estudo metódico, estabelecendo-se toda a metodologia
+				para determinar a interface e como cada informação será
+				representada.
+			</Atividades>
 			<MesExecEtapa>6,7,8</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>13</EtapaN>
-			<Atividades>Construção do mock up do robô que aplica o revestimento. Tarefa executada como previsto. Foi construído todo o ambiente do circuito hidráulico e manipulador através de impressão 3D em uma escala 1:20. </Atividades>
+			<Atividades>Construção do mock up do robô que aplica o revestimento.
+				Tarefa executada como previsto. Foi construído todo o ambiente do
+				circuito hidráulico e manipulador através de impressão 3D em uma
+				escala 1:20.
+			</Atividades>
 			<MesExecEtapa>8</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>14</EtapaN>
-			<Atividades>Foram realizados projetos e detalhamento de dispositivos necessários para realização dos testes definidos na etapa de design dos testes baseando-se nas modificações necessárias para adequação do equipamento de jateamento e coating no ambiente definido e no uso dos materiais selecionados para revestimento. </Atividades>
+			<Atividades>Foram realizados projetos e detalhamento de dispositivos
+				necessários para realização dos testes definidos na etapa de design
+				dos testes baseando-se nas modificações necessárias para adequação
+				do equipamento de jateamento e coating no ambiente definido e no uso
+				dos materiais selecionados para revestimento.
+			</Atividades>
 			<MesExecEtapa>5,6</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>15</EtapaN>
-			<Atividades>Reunião de acompanhemento do projeto. Tarefa executada como prevista. </Atividades>
+			<Atividades>Reunião de acompanhemento do projeto. Tarefa executada
+				como prevista.
+			</Atividades>
 			<MesExecEtapa>6,7</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>16</EtapaN>
-			<Atividades>Etapa de dedicada para a fabricação de peças e montagem dos dispositivos projetados na etapa de detalhamento dos dispositivos (etapa 2300).	</Atividades>
+			<Atividades>Etapa de dedicada para a fabricação de peças e montagem
+				dos dispositivos projetados na etapa de detalhamento dos
+				dispositivos (etapa 2300).
+			</Atividades>
 			<MesExecEtapa>7,8</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>17</EtapaN>
-			<Atividades>Visita realizada na UHE Jirau para verificação de acessos ao circuito hidráulico realizada com a fim de complementar o estudo de definição das modificações que seriam necessárias para serem realizadas nos equipamentos e prever movimentos e alocações dos equipamentos dentro do circuito. </Atividades>
+			<Atividades>Visita realizada na UHE Jirau para verificação de acessos
+				ao circuito hidráulico realizada com a fim de complementar o estudo
+				de definição das modificações que seriam necessárias para serem
+				realizadas nos equipamentos e prever movimentos e alocações dos
+				equipamentos dentro do circuito.
+			</Atividades>
 			<MesExecEtapa>8</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>18</EtapaN>
-			<Atividades>Visita realizada na UHE Jirau, nas máquinas 29 e 39, com a finalidade de inspecionar o desgaste das pás, complementando o estudo de definições de testes necessários para qualificação dos revestimentos. </Atividades>
+			<Atividades>Visita realizada na UHE Jirau, nas máquinas 29 e 39, com
+				a finalidade de inspecionar o desgaste das pás, complementando o
+				estudo de definições de testes necessários para qualificação dos
+				revestimentos.
+			</Atividades>
 			<MesExecEtapa>9</MesExecEtapa>
 		</Etapa>
-		
-		
-		
-		
-		
+
+
+
+
+
 		<Etapa>
 			<EtapaN>19</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
-				projeto
-				e análise em campo da problemática
+			<Atividades>Simulação dos movimentos do robô sobre a turbina,
+				verificando limites e singularidades. Tarefa executada como
+				prevista. Foi utilizado o simulador Openrave.
 			</Atividades>
 			<MesExecEtapa>9,10,11</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>20</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
-				projeto
-				e análise em campo da problemática
+			<Atividades>Testes para avaliar a modificação do procedimento de
+				jateamento para a sua adequação ao ambiente proposto no projeto;
 			</Atividades>
 			<MesExecEtapa>9,10,11</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>21</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
-				projeto
-				e análise em campo da problemática
+			<Atividades>Aplicação em amostras de testes para qualificação de
+				materiais e procedimento de aspersão para posterior avaliação
+				comparativa do desempenho dos sistemas de revestimentos.
 			</Atividades>
 			<MesExecEtapa>9,10,11</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>22</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
-				projeto
-				e análise em campo da problemática
+			<Atividades>Teste da solução em Jirau sobre condições reais de
+				operação. Tarefa executada antes do previsto. Os testes de campo
+				foram executados durante a viagem de acompanhamento que ocorreu na
+				etapa 2900. Foram testados os conceitos de acoplamento magnético e
+				mapeamento 3D com laser scanner.
 			</Atividades>
 			<MesExecEtapa>9</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>23</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
-				projeto
-				e análise em campo da problemática
+			<Atividades>Realização dos testes para verificar se o revestimento
+				mantém as características técnicas exigidas para a aplicação após
+				mudanças de parâmetros. Nessa etapa foram realizados os testes de
+				qualificação dos revestimentos antes e após mudanças de parâmetros e
+				realização de ensaios destrutivos comparativos normatizados.
 			</Atividades>
-			<MesExecEtapa>1</MesExecEtapa>
+			<MesExecEtapa>9,10,11</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>24</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
-				projeto
-				e análise em campo da problemática
+			<Atividades>Aperfeiçoamento da solução baseado nos resultados dos
+				testes de campo. Tarefa atrasada em 1 mês com impacto de atraso de 1
+				mês no projeto. O cálculo da posição relativa entre o robô e a pá,
+				baseado em dados reais do sensor de metrologia testado em campo,
+				está com um erro de 0,1-0,2 graus o que resulta em um erro de
+				posição da extremidade do manipulador na ordem de centímetros. A
+				ordem de grandeza desejada para poder fazer reparo do perfil
+				hidráulico é em milímetros. Logo, as técnicas de alinhamento
+				continuando sendo aprimoradas.
 			</Atividades>
-			<MesExecEtapa>1</MesExecEtapa>
+			<MesExecEtapa>10,11</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>25</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
-				projeto
-				e análise em campo da problemática
+			<Atividades>A inspeção nas pás é realizada com o fim de avaliar o
+				progresso do desgate nas superfícies das pás e também determinar o
+				tipo e a severidade em cada região da pá.
 			</Atividades>
-			<MesExecEtapa>1</MesExecEtapa>
+			<MesExecEtapa>11</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>26</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
-				projeto
-				e análise em campo da problemática
+			<Atividades>Continuação da realização dos testes destrutivos após
+				anális dos resultados prévio. As amostras que estvam em atraso na
+				antrega dos resultados de cavitação foram realizadas nessa etapa.
+				Também foram testes de aplicação de revestimento orgânico para
+				melhoria das características do revestimento.
 			</Atividades>
-			<MesExecEtapa>1</MesExecEtapa>
+			<MesExecEtapa>12,13</MesExecEtapa>
 		</Etapa>
 		<Etapa>
 			<EtapaN>27</EtapaN>
-			<Atividades>Viajem Inaugural: Assinatura do termo inaugural do
-				projeto
-				e análise em campo da problemática
+			<Atividades>Teste da solução em Jirau sobre condições reais de
+				operação. Tarefa cancelada. As informações necessárias para esta
+				fase do projeto foram coletadas durante o teste de campo 01.
 			</Atividades>
-			<MesExecEtapa>1</MesExecEtapa>
+			<MesExecEtapa>12</MesExecEtapa>
 		</Etapa>
-</PD_Etapas>
-
-
-<PD_Recursos>
-...
-</PD_Recursos>
-
-
-<PD_Resultados>
-<PD_ResultadosCP>
-...
-</PD_ResultadosCP>
-<PD_ResultadosCT>
-...
-</PD_ResultadosCT>
-<PD_ResultadosSA>
-...
-</PD_ResultadosSA>
-<PD_ResultadosIE>
-...
-</PD_ResultadosIE>
-</PD_Resultados>
-</PED>
 
 
 
-</PD_ProjetoBase> 
-
-<!-- Equipe  -->
-<PD_Equipe> 
-   <!-- Empresas Financiadoras  -->
-   <Empresas> 
-      <!-- ESBR  -->
-      <Empresa>
-         <CodEmpresa>6631</CodEmpresa> 
-         <TipoEmpresa>P</TipoEmpresa> 
-         <!-- Equipe ESBR TODO: Conferir membros das equipes  -->
-         <Equipe> 
-            <EquipeEmpresa> 
-                <NomeMbEqEmp>Texto</NomeMbEqEmp>
-				<CpfMbEqEmp>Número</CpfMbEqEmp>
-				<TitulacaoMbEqEmp>Código</TitulacaoMbEqEmp>
-				<FuncaoMbEqEmp>Código</FuncaoMbEqEmp>
-				<HhMbEqEmp>Moeda</HhMbEqEmp>
-				<MesMbEqEmp>Texto</MesMbEqEmp>
-				<HoraMesMbEqEmp>Texto</HoraMesMbEqEmp>
-            </EquipeEmpresa> 
-              
-			<EquipeEmpresa>
-				 
-				<NomeMbEqEmp>Breno Bellinati de Carvalho</NomeMbEqEmp>
-				<CpfMbEqEmp>00035241160</CpfMbEqEmp>
-				<TitulacaoMbEqEmp>SU</TitulacaoMbEqEmp>
-				<FuncaoMbEqEmp>GE</FuncaoMbEqEmp>
-				<HhMbEqEmp>Moeda</HhMbEqEmp>
-				<MesMbEqEmp>Texto</MesMbEqEmp>
-				<HoraMesMbEqEmp>Texto</HoraMesMbEqEmp>
-				
-			</EquipeEmpresa>
-         </Equipe> 
-      </Empresa> 
-      <!-- Fim Equipe ESBR   -->
-   </Empresas> 
-   <!-- Fim Equipe Financiadoras  -->
-
-   <!--Executoras  -->
-   <Executoras> 
-         <!-- UFRJ   -->
-         <Executora> 
-             <CNPJExec>7206099900175</CNPJExec> 
-             <RazaoSocialExec>Fundação Coordenação de Projetos, Pesquisas e Estudos Tecnológicos - COPPETEC</RazaoSocialExec> 
-            <UfExec>RJ</UfExec> 
-            <Equipe> 
-               <EquipeExec> 
-
-                  <NomeMbEqExec>Ramon Romankevicius Costa</NomeMbEqExec>  
-                  <DocMbEqExec>31003664687</DocMbEqExec> 
-                  <TitulacaoMbEqExec>DO</TitulacaoMbEqExec> 
-                  <FuncaoMbEqExec>CO</FuncaoMbEqExec> 
-               
-                  <NomeMbEqExec>Julia Campana</NomeMbEqExec> 
-                   <DocMbEqExec>10251769798</DocMbEqExec>
-                  <TitulacaoMbEqExec>Su</TitulacaoMbEqExec>  
-                   <FuncaoMbEqExec>PE</FuncaoMbEqExec> 
-                  
-                  <NomeMbEqExec>Alana Monteiro Lima</NomeMbEqExec>               
-                  <DocMbEqExec>14788121760</DocMbEqExec>                
-                  <TitulacaoMbEqExec>Su</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>AA</FuncaoMbEqExec> 
-
-                  <NomeMbEqExec> Gabriel Alcantara Costa Silva </NomeMbEqExec>               
-                  <DocMbEqExec>13675993779</DocMbEqExec> 
-                  <TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>PE</FuncaoMbEqExec> 
-
-                  <NomeMbEqExec> Eduardo Elael de Melo Soares </NomeMbEqExec>                  
-                  <DocMbEqExec>04528767708</DocMbEqExec> 
-                  <TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>PE</FuncaoMbEqExec> 
-
-                  <NomeMbEqExec> Renan Salles de Freitas </NomeMbEqExec>                       
-                  <DocMbEqExec>12932581724</DocMbEqExec> 
-                  <TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>PE</FuncaoMbEqExec> 
-
-                  <NomeMbEqExec> A definir </NomeMbEqExec>                       
-                  <DocMbEqExec>00000000000</DocMbEqExec> 
-                  <TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>PE</FuncaoMbEqExec> 
-
-                  <NomeMbEqExec> A definir </NomeMbEqExec>                       
-                  <DocMbEqExec>00000000000</DocMbEqExec> 
-                  <TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>AB</FuncaoMbEqExec> 
-
-                  <NomeMbEqExec> A definir </NomeMbEqExec>                       
-                  <DocMbEqExec>00000000000</DocMbEqExec> 
-                  <TitulacaoMbEqExec>TE</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>AB</FuncaoMbEqExec> 
-
-                  <NomeMbEqExec> A definir </NomeMbEqExec>                       
-                  <DocMbEqExec>00000000000</DocMbEqExec> 
-                  <TitulacaoMbEqExec>TE</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>AB</FuncaoMbEqExec> 
-
-               </EquipeExec>
-            </Equipe>
-         </Executora>
-         <!-- Fim Equipe UFRJ   -->
-   
-         <!-- Equipe Rijeza   -->
-         <Executora> 
-             <CNPJExec>05034416000144</CNPJExec> 
-             <RazaoSocialExec>RIJEZA INDUSTRIA METALURGICA LTDA</RazaoSocialExec> 
-             <UfExec>RS</UfExec> 
-             <Equipe> 
-               <EquipeExec> 
-                  <NomeMbEqExec> Leonardo Geremia </NomeMbEqExec>                 
-                  <DocMbEqExec>81178298000</DocMbEqExec> 
-                  <TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>PE</FuncaoMbEqExec>
-
-                  <NomeMbEqExec> Filipe Guerin </NomeMbEqExec>                      
-                  <DocMbEqExec>00778998061</DocMbEqExec> 
-                  <TitulacaoMbEqExec>TE</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>AT</FuncaoMbEqExec> 
-            
-    
-                  <NomeMbEqExec> Gabriel Cogo </NomeMbEqExec>                       
-                  <DocMbEqExec>00920504094</DocMbEqExec> 
-                  <TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>PE</FuncaoMbEqExec> 
+		<Etapa>
+			<EtapaN>28</EtapaN>
+			<Atividades>Relatório de encerramento do projeto no formato P&D Aneel
+				e artigos acadêmicos. Etapa executada como prevista.
+			</Atividades>
+			<MesExecEtapa>13,14</MesExecEtapa>
+		</Etapa>
+		<Etapa>
+			<EtapaN>29</EtapaN>
+			<Atividades>Difusão dos conhecimentos. Etapa executada como prevista.
+				Foi realizado um evento na faculdade de Porto Velho, onde os
+				pesquisadores do projeto EMMA realizaram uma aula de pesquisa
+				aplicada explicando as pesquisas desenvolvidas, seus conceitos e
+				resultados.
+			</Atividades>
+			<MesExecEtapa>14</MesExecEtapa>
+		</Etapa>
+	</PD_Etapas>
 
 
-                  <NomeMbEqExec> Silvio da Silva </NomeMbEqExec>                        
-                  <DocMbEqExec>03757286006</DocMbEqExec> 
-                  <TitulacaoMbEqExec>TE</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>AT</FuncaoMbEqExec> 
-            
-                  <NomeMbEqExec> Darlan Geremia </NomeMbEqExec>                        
-                  <DocMbEqExec>90274466015 </DocMbEqExec> 
-                  <TitulacaoMbEqExec>SU</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>PE</FuncaoMbEqExec> 
+	<PD_Recursos>
+		<RecursoEmpresa>
+			<CodEmpresa>6631</CodEmpresa>
+			<DestRecursos>
+				<DestRecursosExec>
 
-                  <NomeMbEqExec> Jeferson Porto </NomeMbEqExec>                       
-                  <DocMbEqExec>77240189015 </DocMbEqExec> 
-                  <TitulacaoMbEqExec>TE</TitulacaoMbEqExec>
-                  <FuncaoMbEqExec>AT</FuncaoMbEqExec> 
+					<CNPJExec>7206099900175</CNPJExec>
 
-               </EquipeExec>
-            </Equipe>
-         </Executora>
-         <!-- Fim Equipe Rijeza   -->
-
-   </Executoras> 
-</PD_Equipe>
-
-<!-- Recursos  -->
-<PD_Recursos> 
-   <RecursoEmpresa> 
-      <!-- ESBR Codigo  -->
-      <CodEmpresa>6631</CodEmpresa> 
-
-       <!-- UFRJ Recursos  -->
-      <DestRecursosExec> 
-         <CNPJExec>7206099900175</CNPJExec> 
-          <!-- RH -->
-             <CustoCatContabilExec> 
-                <CatContabil>RH</CatContabil> 
-                 <CustoExec>1.379.400,00</CustoExec> 
-             </CustoCatContabilExec> 
-            <!-- ST -->
-             <CustoCatContabilExec> 
-                  <CatContabil>ST</CatContabil> 
-                  <CustoExec>370.000,00</CustoExec> 
-            </CustoCatContabilExec> 
-            <!-- MC -->
-            <CustoCatContabilExec> 
-                  <CatContabil>MC</CatContabil> 
-                  <CustoExec>36.500,00</CustoExec> 
-            </CustoCatContabilExec> 
-             <!-- MP -->
-            <CustoCatContabilExec> 
-               <CatContabil>MP</CatContabil> 
-               <CustoExec>216.000,00</CustoExec> 
-            </CustoCatContabilExec> 
-            <!-- VD -->
-            <CustoCatContabilExec> 
-               <CatContabil>VD</CatContabil> 
-               <CustoExec>130.000,00</CustoExec> 
-            </CustoCatContabilExec> 
-            <!-- OU -->
-            <CustoCatContabilExec> 
-               <CatContabil>OU</CatContabil> 
-               <CustoExec>355.573,47</CustoExec> 
-            </CustoCatContabilExec> 
-      </DestRecursosExec> 
-     
-      <!-- Rijeza  -->
-      <DestRecursosExec> 
-         <CNPJExec>05034416000144</CNPJExec> 
-         <!-- RH -->
-         <CustoCatContabilExec> 
-            <CatContabil>RH</CatContabil> 
-            <CustoExec>180.421,82</CustoExec> 
-         </CustoCatContabilExec> 
-         <!-- ST -->
-         <CustoCatContabilExec> 
-            <CatContabil>ST</CatContabil> 
-            <CustoExec>90.000,00</CustoExec> 
-         </CustoCatContabilExec> 
-         <!-- MC -->
-         <CustoCatContabilExec> 
-            <CatContabil>MC</CatContabil> 
-            <CustoExec>665.600,00</CustoExec> 
-         </CustoCatContabilExec> 
-         <!-- MP -->
-         <CustoCatContabilExec> 
-            <CatContabil>MP</CatContabil> 
-            <CustoExec>0,00</CustoExec> 
-         </CustoCatContabilExec> 
-         <!-- VD -->
-         <CustoCatContabilExec> 
-            <CatContabil>VD</CatContabil> 
-            <CustoExec>82.000,00</CustoExec> 
-         </CustoCatContabilExec> 
-         <!-- OU -->
-         <CustoCatContabilExec> 
-            <CatContabil>OU</CatContabil> 
-            <CustoExec>20.775,96</CustoExec> 
-         </CustoCatContabilExec> 
-      </DestRecursosExec> 
-
-      <!-- ESBR  -->
-      <DestRecursosEmp>
-         <CustoCatContabilEmp>
-            <!-- RH -->
-            <CatContabil>RH</CatContabil>
-            <CustoEmp>156.800,00</CustoEmp>
-            <!-- VD -->
-            <CatContabil>VD</CatContabil>
-            <CustoEmp>72.000,00</CustoEmp>
-         </CustoCatContabilEmp>
-      </DestRecursosEmp>
-
-   </RecursoEmpresa>
-</PD_Recursos> 
+					<CustoCatContabil>
+						<CategoriaContabil>MC</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Processador I Core7</NomeItem>
+							<JustificaItem>Os notebooks comprados foram selecionados com
+								opcao de processamento extra,devido aos requisitos elevados de
+								processamento na análise de elementos finitos, simulação e
+								design mecânico.
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>324,51</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Recortes de madeira</NomeItem>
+							<JustificaItem>Esquemático da pá, para testes em laboratório.
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>324,51</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Trilho</NomeItem>
+							<JustificaItem>Trilho para movimentação do robô até a pá. O
+								trilho é necessário
+								para que o robô aplique o coating em toda pá.
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>324,51</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+					</CustoCatContabil>
 
 
+					<CustoCatContabil>
+						<CategoriaContabil>MP</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Note Books</NomeItem>
+							<JustificaItem>Compra de equipamento laboratorial necessário para
+								a execução de testes em campo na UHE Jirau
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>3967,25</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Licença de Software Adobe Creative Cloud Team
+								Multiplataforma ML Renewal
+							</NomeItem>
+							<JustificaItem>
+								OS oftware para modelagem mecânica necessário dentro do escopo
+								do projeto para o design do robô EMMA. /JustificaItem>
+								<QtdeItem>1</QtdeItem>
+								<ValorIndItem>2.013,71</ValorIndItem>
+								<TipoItem>N</TipoItem>
+								<ItemLabE>N</ItemLabE>
+								<ItemLabN>N</ItemLabN>
+							</JustificaItem>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Licença de Software Adobe Professional Creative Cloud
+								Subscripition
+							</NomeItem>
+							<JustificaItem>OS oftware para modelagem mecânica necessário
+								dentro do escopo do projeto para o design do robô EMMA.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>987,25</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Licença de Software Licença de Solidworks Premium 2016-
+								Licença de uso + manutenção anual
+							</NomeItem>
+							<JustificaItem>Software para desenvolvimento de esquemáticos
+								mecânicos para desenvolvimento do projeto EMMA.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>32467,5</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Levantador Magnético</NomeItem>
+							<JustificaItem>Foi identificada a necessidade do equipamento para
+								testes de conceito
+								de fixação do Manipulador do projeto EMMA
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.009</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Laser Scanner</NomeItem>
+							<JustificaItem>Foi identificada a necessidade do equipamento,
+								para um correto planejamento
+								que o manipulador deve seguir
+								durante a tarefa de metalização.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>322.480</ValorIndItem>
+							<TipoItem>I</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Motomam MH12</NomeItem>
+							<JustificaItem>O robô é necessário porque a tarefa de
+								revestimento requer parâmetros
+								como velocidade e distância
+								precisamente controlados, de forma que
+								seria impossível a
+								realização por
+								humanos.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>125.259,97</ValorIndItem>
+							<TipoItem>I</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+					</CustoCatContabil>
+
+					<CustoCatContabil>
+						<CategoriaContabil>ST</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Maquete turbina Jirau 1:5
+							</NomeItem>
+							<JustificaItem>Reproduzir o ambiente do robo em escala 1:5 para
+								testes de reconhecimento de área e noção do ambiente de missão
+								do robô EMMA
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>24.500</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem> Ajustes da Maquete turbina Jirau 1:5	</NomeItem>
+							<JustificaItem>As modificações solicitadas decorreram de uma
+								melhor interpretação do ambiente a ser estudado, conforme as
+								peças eram impressas e o sistema era montando, solicitamos a
+								empresa, ajustes de calibragem da rotação da pá, movimentação
+								de
+								rotação proporcional ao executado em Jirau, esquema de
+								locomoção
+								da maquete e usinagem do suporte da maquete impressa.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>6.190</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+					</CustoCatContabil>
+
+					<CustoCatContabil>
+						<CategoriaContabil>VD</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Diárias viagem Jirau 27/04 a 01/05/2015</NomeItem>
+							<JustificaItem>Diária para dias de translado, viagem inaugural
+								projeto EMMa
+							</JustificaItem>
+							<QtdeItem>5</QtdeItem>
+							<ValorIndItem>200</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Compra de passagens Viagem Rijeza
+							</NomeItem>
+							<JustificaItem>Viagem de alinhamento e apresentação de possíveis
+								soluções do
+								projeto EMMA. Integrantes: Ramon Costa e Renan Salles
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>1081,88</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Diárias viagem Rijeza 08 até 09/07/2015
+							</NomeItem>
+							<JustificaItem>Visita empresa Cooperadora do Projeto Emma,
+								discussão sobre possíveis
+								soluções, apresentação de estudos e
+								debate de ideias
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>516</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Compra de passagens para Congresso Costa do Suípe
+							</NomeItem>
+							<JustificaItem>Viagem Congresso Costa do Sauípe.
+							</JustificaItem>
+							<QtdeItem>3</QtdeItem>
+							<ValorIndItem>523,09</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Diárias viagem Congresso Costa do Sauipe
+							</NomeItem>
+							<JustificaItem>Congresso CITENEL Costa do Sauípe
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>300</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Compra de passagens Viagem Jirau 13 até 16/10/2015
+							</NomeItem>
+							<JustificaItem>Viagem de reconheceminto de cenário, análise Swot
+								da estruta.
+							</JustificaItem>
+							<QtdeItem>6</QtdeItem>
+							<ValorIndItem>1734,58</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Diárias viagem Jirau 13/10 até 16/10/2015
+							</NomeItem>
+							<JustificaItem> Pagamento de diária em período de translado
+							</JustificaItem>
+							<QtdeItem>6</QtdeItem>
+							<ValorIndItem>200</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Locação de veículo viagem jirau 13/10 até 16/10/2015
+							</NomeItem>
+							<JustificaItem>Para os testes em Jirau foi necessário a locação
+								de dois
+								veículos para transpote da equipe.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>305</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Locação de veículo viagem jirau 13/10 até 16/10/2015
+							</NomeItem>
+							<JustificaItem>Para os testes em Jirau foi necessário a locação
+								de dois
+								veículos para transpote da equipe.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>305</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Diária viagem jirau 30/05/2016 encerramento projeto
+							</NomeItem>
+							<JustificaItem> Diária para translado coordenador do projeto EMMA
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>300</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem> Bilhete viagem Jiaru 30/05/2016
+							</NomeItem>
+							<JustificaItem> Viagem encerramento projeto EMMA
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.527,44</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+					</CustoCatContabil>
+
+
+					<CustoCatContabil>
+						<CategoriaContabil>OU</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Retenção Nota fiscal ISS NF 115704
+							</NomeItem>
+							<JustificaItem>Imposto retido sobre nota
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>14517,83</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Pagamento Publicação diário Oficial
+							</NomeItem>
+							<JustificaItem>Informar formalmente pareceria estabelecida entre
+								as parte para
+								o desenvolvimento do projeto EMMA
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>121,45</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Seguro de Vida
+							</NomeItem>
+							<JustificaItem>Cumprimento de Clausula Contratual
+							</JustificaItem>
+							<QtdeItem>12</QtdeItem>
+							<ValorIndItem>64,56</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem> Seguro de Vida
+							</NomeItem>
+							<JustificaItem>Cumprimento de Clausula Contratual
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>65,08</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem> Exame admissional contratação Engenheiro Mecânico
+							</NomeItem>
+							<JustificaItem>Exame médico admissional obrigatório previsto no
+								artigo 168 da CLT
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>43,40</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>1°, 2ª e 3ª Parcela Curso de Segurança do trabalho
+								normas 10, 33 e 35
+							</NomeItem>
+							<JustificaItem>Previsto no Contrato Jirau 09/15, cláusula quarta,
+								paragrafos 4.9 e 4.10.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>6.000</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Parcela administrativa DOA
+							</NomeItem>
+							<JustificaItem>Pagamento de taxa administrativa previsto em
+								cronograma financeiro do projeto.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>28.636,86</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Taxa de mobilização
+							</NomeItem>
+							<JustificaItem>Pagamento de taxa de mobilização previsto em
+								cronograma financeiro do projeto.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>110.000</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Contratação video promocional Projeto EMMA
+							</NomeItem>
+							<JustificaItem>Video promocional Robô EMMA
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>35.874</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Parcela administrativa DOA
+							</NomeItem>
+							<JustificaItem>Pagamento de taxa administrativa previsto em
+								cronograma financeiro do projeto.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>22.477,86</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Retenção Nota fiscal ISS NF 131498
+							</NomeItem>
+							<JustificaItem>Imposto retido sobre nota
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>9.633,36</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Retenção Nota fiscal ISS NF 134111
+							</NomeItem>
+							<JustificaItem>Imposto retido sobre nota
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>14.000</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa acessoria de importação (laser scanner)
+							</NomeItem>
+							<JustificaItem> Despesa com tramite de importação do equipamento
+								Laser Scanner
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>773,9</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa acessoria de importação (laser scanner)
+							</NomeItem>
+							<JustificaItem> Despesa com tramite de importação do equipamento
+								Laser Scanner
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>724,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa acessoria de importação (laser scanner)
+							</NomeItem>
+							<JustificaItem> Despesa com tramite de importação do equipamento
+								Laser Scanner
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>7.874,74</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>3ª e 4ª Parcela administrativa DOA
+							</NomeItem>
+							<JustificaItem>Pagamento de taxa administrativa previsto em
+								cronograma financeiro do projeto.
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>52.686,67</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+					</CustoCatContabil>
+				</DestRecursosExec>
+			</DestRecursos>
+		</RecursoEmpresa>
+	</PD_Recursos>
+
+
+	<PD_Resultados>
+		<PD_ResultadosCP>
+			<IdCP>
+				<TipoCP>ME</TipoCP>
+				<ConclusaoCP>N</ConclusaoCP>
+				<DataCP>15032018</DataCP>
+				<DocMmbEqCP>11157128700</DocMmbEqCP>
+				<CNPJInstCP>33663683000116</CNPJInstCP>
+				<AreaCP>Mestrado Engenharia Mecânica</AreaCP>
+				<TituloCP>Controle de Precisão de Um Manipulador Robótico devido à
+					Flexibilidade e Vibrações de Uma Base Mecânica e do Próprio
+					Manipulador, Dadas Suas Cargas Dinâmicas.
+				</TituloCP>
+				<ArquivoPDF /> <!-- COLOCAR ARQUIVO PDF -->
+			</IdCP>
+			<IdCP>
+				<TipoCP>ME</TipoCP>
+				<ConclusaoCP>N</ConclusaoCP>
+				<DataCP>15032018</DataCP>
+				<DocMmbEqCP>10251769798</DocMmbEqCP>
+				<CNPJInstCP>33663683000116</CNPJInstCP>
+				<AreaCP>Mestrado Ergonomia e Usabilidade</AreaCP>
+				<TituloCP>Interface de Usuários para Robôs: Um Estudo de Ergonomia e
+					Usabilidade
+				</TituloCP>
+				<ArquivoPDF /> <!-- COLOCAR ARQUIVO PDF -->
+			</IdCP>
+		</PD_ResultadosCP>
+
+
+
+
+		<PD_ResultadosCT>
+			<!-- RESULTADOS DO PROJETO DE P&D EM TERMOS DE CAPACITAÇÃO TECNOLÓGICA -->
+		</PD_ResultadosCT>
+
+
+
+		<PD_ResultadosSA>
+			<IdSA>
+				<TipoISA>ISA1</TipoISA> <!-- Estudo Da Rijeza de reaproveitamento/descarte do pó de coating -->
+				<PossibISA>N</PossibISA>
+				<TxtISA>
+				</TxtISA>
+			</IdSA>
+			<IdSA>
+				<TipoISA>ISA2</TipoISA>
+				<PossibISA>N</PossibISA>
+				<TxtISA>
+				</TxtISA>
+			</IdSA>
+			<IdSA>
+				<TipoISA>ISA3</TipoISA>
+				<PossibISA>N</PossibISA>
+				<TxtISA>
+				</TxtISA>
+			</IdSA>
+			<IdSA>
+				<TipoISA>ISA4</TipoISA>
+				<PossibISA>N</PossibISA>
+				<TxtISA>
+				</TxtISA>
+			</IdSA>
+		</PD_ResultadosSA>
+
+
+
+
+		<PD_ResultadosIE>
+			<IdIE>
+				<TipoIE>PR1</TipoIE> <!-- Redução de HomemHora -->
+				<TxtBenefIE><!-- Descrição do benefício econômico para o indicador econômico 
+						selecionado -->
+				</TxtBenefIE>
+				<UnidBenefIE><!-- Unidade da base do indicador econômico selecionado, 
+						para cálculo do benefício financeiro. Ex.: kVA, kW, kvar, kVAh, kWh, kvarh, 
+						H/h, s/unid, -->
+				</UnidBenefIE>
+				<BaseBenefIE><!-- Valor numérico do indicador econômico selecionado.Usar 
+						o ponto '.' como separador de milhar e a vírgula ',' como separador decimal. -->
+				</BaseBenefIE>
+				<PerBenefIE><!-- Percentagem do impacto para o indicador econômico selecionado. 
+						Usar a vírgula ',' como separador decimal. -->
+				</PerBenefIE>
+				<VlrBenefIE><!-- Valor do benefício econômico para o indicador selecionado. 
+						Usar o ponto '.' como separador de milhar e a vírgula ',' como separador 
+						decimal. -->
+				</VlrBenefIE>
+			</IdIE>
+			<IdIE>
+				<TipoIE>PR3</TipoIE> <!-- Redução de Tempo -->
+				<TxtBenefIE><!-- Descrição do benefício econômico para o indicador econômico 
+						selecionado -->
+				</TxtBenefIE>
+				<UnidBenefIE><!-- Unidade da base do indicador econômico selecionado, 
+						para cálculo do benefício financeiro. Ex.: kVA, kW, kvar, kVAh, kWh, kvarh, 
+						H/h, s/unid, -->
+				</UnidBenefIE>
+				<BaseBenefIE><!-- Valor numérico do indicador econômico selecionado.Usar 
+						o ponto '.' como separador de milhar e a vírgula ',' como separador decimal. -->
+				</BaseBenefIE>
+				<PerBenefIE><!-- Percentagem do impacto para o indicador econômico selecionado. 
+						Usar a vírgula ',' como separador decimal. -->
+				</PerBenefIE>
+				<VlrBenefIE><!-- Valor do benefício econômico para o indicador selecionado. 
+						Usar o ponto '.' como separador de milhar e a vírgula ',' como separador 
+						decimal. -->
+				</VlrBenefIE>
+			</IdIE>
+		</PD_ResultadosIE>
+	</PD_Resultados>
 </PED>
