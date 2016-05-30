@@ -25,59 +25,97 @@
 		</DataFimODS>
 
 		<ProdPrev>
-			S<!-- Produto principal previsto foi alcançado ou superado: S (Sim) ou 
-				N( o). -->
+			S
 		</ProdPrev>
 
-		<ProdJust><!-- Justificativa pelo não-alcance do produto principal previsto 
-				(até 1.000 caracteres). -->
+		<ProdJust>
 		</ProdJust>
 
-		<ProdEspTec><!-- Especificação técnica do produto principal obtido (até 
-				1.000 caracteres). -->
+		<ProdEspTec>O produto principal obtido foi uma metodologia para
+			aplicar revestimento metálico em pás de turbinas hidroelétricas já
+			instaladas baseada em utilização de manipuladores robóticos
+			industriais compactos sobre bases com graus de liberdade. A
+			metodologia desenvolvida detalha: como determinar o manipulador
+			industrial ótimo para cada circuito hidráulico; como realizar o
+			design detalhados da base estimando o número de graus de liberdade
+			necessário, modularidade e integridade estrutural; como determinar os
+			parâmetros do revestimento; como determinar as áreas a serem
+			revestidas; o algoritmo para estimar e posicionar o manipulador no
+			ponto ótimo para realizar o revestimento pretendido; como preparar a
+			superfície e sistema de revestimento; e o algoritmo para planejar e
+			executar o movimento do manipulador para realizar o revestimento.
 		</ProdEspTec>
 
 		<TecPrev>
-			Letra<!-- Técnica prevista foi implementada: S (Sim) ou N (Não). -->
+			S
 		</TecPrev>
 
 		<TecJust>
-			Texto<!-- Justificativa pela nãoimplementação da técnica prevista (até 
-				1.000 caracteres). -->
 		</TecJust>
 
-		<TecDesc>
-			Texto<!-- Descrição, sucinta, da técnica empregada (até 1.000 caracteres). -->
+		<TecDesc>Diversas técnicas foram empregadas na determinação da
+			metodologia. Revisão do estado da arte para determinar a solução
+			conceito. Análises geométricas, dinâmicas, cinemática e de controle
+			de manipuladores. Análise de nuvens de pontos por Hansac,
+			Transformada de Hough 3D e Correspondence grouping para estimar
+			posicionamento relativo real. Modelagem de superfície, cálculo de
+			paralelos e meridianos para controle de trajetória. Método de
+			elementos finitos para análise estrutural da base mecânica. Análise
+			laboratorial de amostras com diferentes tipos de revestimento.
 		</TecDesc>
 
 		<AplicPrev>
-			Letra<!-- Aplicabilidade prevista foi alcançada ou superada: S (Sim) ou 
-				N (Não). -->
+			S
 		</AplicPrev>
 
 		<AplicJust>
-			Texto<!-- Justificativa pelo nãoalcance da aplicabilidade prevista (até 
-				1.000 caracteres). -->
 		</AplicJust>
 
-		<AplicFnc>
-			Texto<!-- Descrição, sucinta, dos resultados dos testes de funcionalidade 
-				do produto principal e suas restrições (até 1.000 caracteres). -->
+		<AplicFnc>As diferentes etapas da metodologia foram validadas por
+			simulação e testes laboratoriais. A manipulabilidade foi validada
+			modelando o ambiente e manipulador no software de simulação Openrave
+			e confirmado a capacidade do mesmo de executar o revestimento em toda
+			a superfície da pá. O método de estimar a posição relativa entre pá e
+			manipulador foi confirmado através do simulador Blensor. O design
+			detalhado da base foi validado através de cálculos estruturais
+			utilizando a ferramenta Linear Guide Calculator. Foram realizados
+			testes em campo do sensores, como por exemplo mapeamento por laser 3D
+			do circuito hidráulico e teste de força do pino magnético para
+			ancoragem da estrutura. Assim como, testes laboratoriais analisando
+			as amostras quando submetidos diferentes subtrados a corrosão e
+			cavitação.
 		</AplicFnc>
 
-		<AplicAbrang>
-			Texto<!-- Descrição da abrangência de aplicação do produto principal e 
-				suas restrições (até 1.000 caracteres). -->
+		<AplicAbrang>A metodologia desenvolvido no projeto poderá ser aplicada
+			na maioria das hidroelétricas de médio ou grande porte. A metodologia
+			determina o tamanho e manipulador ótimo para o circuito hidráulico em
+			questão, assim como, qual material de revestimento a ser aplicado. A
+			restrição para aplicação da tecnologia é apenas dada pelo espaço
+			entre as pás, em hidroelétricas de pequeno porte a arma de
+			revestimento não cabe entre as pás. Logo, a abrangência é nacional,
+			entretanto com restrição de uso em pequena unidade geradoras.
 		</AplicAbrang>
 
-		<AplicAmbito>
-			Texto<!-- Descrição do âmbito de aplicação do produto principal e suas 
-				restrições (até 1.000 caracteres). -->
+		<AplicAmbito>A matriz geradora Brasileira é constituída em sua maioria
+			por geração hidráulica, com um grande número de centrais em rios
+			tipos corredeiras que possuem reservatórios pequenos. Neste tipo de
+			rio não há tempo de sedimentação das partículas sólidas na água,
+			essas partículas sólidas, mesmo em quantidades pequenas, geram um
+			elevado nível de desgaste por erosão e cavitação. A aplicação de
+			revestimento reduz estes desgastes mecânicos, aumentando a eficiência
+			de geração e vida útil da turbina. A técnica desenvolvida é voltada a
+			aplicação do revestimento as pás da turbina com as mesmas instaladas,
+			ou seja, dentro do circuito hidráulico. A técnica é restrita a
+			turbinas de médio e grande porte devido ao tamanho mínimo do
+			equipamento existente de revestimento.
 		</AplicAmbito>
 
-		<TxDifTec>
-			Texto<!-- Descrição, sucinta, das atividades relacionadas à transferência/difusão 
-				tecnológica (até 500 caracteres). -->
+		<TxDifTec>A estratégia de difusão adotada no projeto foi realizar um
+			workshop de transferência de conhecimento junto a equipe de operação
+			da ESBR, onde a metodologia e conclusões finais do projeto foram
+			apresentados. O conhecimento também foi transferido para a comunidade
+			acadêmica através da publicação de dois artigos acadêmicos dos
+			resultados do projeto.
 		</TxDifTec>
 
 	</PD_RelFinalBase>
@@ -653,6 +691,1521 @@
 		<RecursoEmpresa>
 			<CodEmpresa>6631</CodEmpresa>
 			<DestRecursos>
+
+				<DestRecursosExec>
+					<CNPJExec>00000000000000</CNPJExec>
+
+					<CustoCatContabil>
+						<CategoriaContabil>MC</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2000Kg de Gás GLP necessário para a realização de
+								testes do revestimento, no período de 23/06 a 24/07/2015
+							</JustificaItem>
+							<QtdeItem>2000</QtdeItem>
+							<ValorIndItem>4,46</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>30Kg de Matéria-Prima em Pó, necessário para a
+								realização de testes do revestimento, no período de 23/06 a
+								24/07/2015
+							</JustificaItem>
+							<QtdeItem>30</QtdeItem>
+							<ValorIndItem>375,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>20Kg de Matéria-Prima em Pó, necessário para a
+								realização de testes do revestimento, no período de 23/06 a
+								24/07/2015
+							</JustificaItem>
+							<QtdeItem>20</QtdeItem>
+							<ValorIndItem>385,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>54 m3 de Gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 23/06 a
+								24/07/2015
+							</JustificaItem>
+							<QtdeItem>54</QtdeItem>
+							<ValorIndItem>53,99</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>500Kg de gás propano, necessário para a realização
+								de testes do revestimento, no período de 01/09/2015 a 30/09/2015
+							</JustificaItem>
+							<QtdeItem>500</QtdeItem>
+							<ValorIndItem>6,33</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>300Kg de Carb de Tungstênio, necessário para a
+								realização de testes do revestimento, no período de 01/09 a
+								31/10/2015
+							</JustificaItem>
+							<QtdeItem>300</QtdeItem>
+							<ValorIndItem>348,89</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>110m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/09/2015 a
+								30/09/2015
+							</JustificaItem>
+							<QtdeItem>110</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/09/2015 a
+								30/09/2015
+							</JustificaItem>
+							<QtdeItem>60</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/09/2015 a
+								30/09/2015
+							</JustificaItem>
+							<QtdeItem>60</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3595m3 gás Oxigênio, necessário para a realização
+								de testes do revestimento, no período de 01/09/2015 a 30/09/2015
+							</JustificaItem>
+							<QtdeItem>3595</QtdeItem>
+							<ValorIndItem>3,16</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3794m3 gás Oxigênio, necessário para a realização
+								de testes do revestimento, no período de 01/09/2015 a 30/09/2015
+							</JustificaItem>
+							<QtdeItem>3794</QtdeItem>
+							<ValorIndItem>3,16</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>4 unidades de peças de reposição, devido ao
+								desgaste constante do uso da máquina de aspersão perante a
+								realização dos testes, no período de 01/09 a 30/09/2015
+							</JustificaItem>
+							<QtdeItem>4</QtdeItem>
+							<ValorIndItem>1.020,80</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2 unidades de peças de reposição, devido ao
+								desgaste pelo uso da máquina de aspersão perante a realização
+								dos testes, no período de 15/09 a 30/09/2015
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>1.181,60</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>10 unidades de peças de reposição, devido ao
+								desgaste pelo uso da máquina de aspersão perante a realização
+								dos testes, no período de 01/10 a 31/10/2015
+							</JustificaItem>
+							<QtdeItem>10</QtdeItem>
+							<ValorIndItem>703,01</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/10/2015 a
+								31/10/2015
+							</JustificaItem>
+							<QtdeItem>70</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/10/2015 a
+								31/10/2015
+							</JustificaItem>
+							<QtdeItem>60</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/10/2015 a
+								31/10/2015
+							</JustificaItem>
+							<QtdeItem>60</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2522m3 gás Oxigênio, necessário para a realização
+								de testes do revestimento, no período de 01/10/2015 a 31/10/2015
+							</JustificaItem>
+							<QtdeItem>2522</QtdeItem>
+							<ValorIndItem>3,22</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>4 unidades de rolamentos para dispositivo de
+								ensaio de dobramento para adaptação de máquina de ensaios
+								universal
+							</JustificaItem>
+							<QtdeItem>4</QtdeItem>
+							<ValorIndItem>116,71</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>400Kg de gás propano, necessário para a realização
+								de testes do revestimento, no período de 01/10/2015 a 31/10/2015
+							</JustificaItem>
+							<QtdeItem>400</QtdeItem>
+							<ValorIndItem>6,33</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>400Kg de gás propano, necessário para a realização
+								de testes do revestimento, no período de 01/10/2015 a 31/10/2015
+							</JustificaItem>
+							<QtdeItem>400</QtdeItem>
+							<ValorIndItem>6,33</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>1000Kg de Óxido de Alumínio, necessário para a
+								realização de testes do revestimento, no período de 01/10/2015 a
+								31/10/2015
+							</JustificaItem>
+							<QtdeItem>1000</QtdeItem>
+							<ValorIndItem>4,46</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/11/2015 a
+								30/11/2015
+							</JustificaItem>
+							<QtdeItem>60</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/11/2015 a
+								30/11/2015
+							</JustificaItem>
+							<QtdeItem>70</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/11/2015 a
+								30/11/2015
+							</JustificaItem>
+							<QtdeItem>70</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3196m3 gás Oxigênio, necessário para a realização
+								de testes do revestimento, no período de 01/11/2015 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>3196</QtdeItem>
+							<ValorIndItem>3,18</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3995m3 gás Oxigênio, necessário para a realização
+								de testes do revestimento, no período de 01/11/2015 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>3995</QtdeItem>
+							<ValorIndItem>3,15</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2000Kg de Óxido de Alumínio, necessário para a
+								realização de testes do revestimento, no período de 01/11/2015 a
+								30/11/2015
+							</JustificaItem>
+							<QtdeItem>2000</QtdeItem>
+							<ValorIndItem>4,44</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>400Kg de gás propano, necessário para a realização
+								de testes do revestimento, no período de 01/11/2015 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>475</QtdeItem>
+							<ValorIndItem>6,43</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2 unidades de Lixa Diamantada; consumível
+								necessário para a preparação de amostras, para os testes a serem
+								realizado no período de 01/11 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>773,37</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>1 unidade de Disco de Corte Diamantado; consumível
+								necessário para a preparação de amostras, para os testes a serem
+								realizado no período de 01/11 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>2.591,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>9 unidades de peças de reposição, devido ao
+								desgaste pelo uso da máquina de aspersão perante a realização
+								dos testes, no período de 01/11 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>9</QtdeItem>
+							<ValorIndItem>1.065,89</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>1 unidade de peça de reposição, devido ao desgaste
+								pelo uso da máquina de aspersão perante a realização dos testes,
+								no período de 01/11 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.790,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>300Kg de Carb de Tungstênio, necessário para a
+								realização de testes do revestimento, no período de 01/11 a
+								31/12/2015
+							</JustificaItem>
+							<QtdeItem>300</QtdeItem>
+							<ValorIndItem>409,37</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>100Kg de Carb de Tungstênio, necessário para a
+								realização de testes do revestimento, no período de 01/11 a
+								31/12/2015
+							</JustificaItem>
+							<QtdeItem>100</QtdeItem>
+							<ValorIndItem>416,79</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/12/2015 a
+								31/12/2015
+							</JustificaItem>
+							<QtdeItem>70</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/12/2015 a
+								31/12/2015
+							</JustificaItem>
+							<QtdeItem>70</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>500Kg de gás propano, necessário para a realização
+								de testes do revestimento, no período de 01/12/2015 a 31/12/2015
+							</JustificaItem>
+							<QtdeItem>500</QtdeItem>
+							<ValorIndItem>6,73</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2523m3 gás Oxigênio, necessário para a realização
+								de testes do revestimento, no período de 01/12/2015 a 31/12/2015
+							</JustificaItem>
+							<QtdeItem>2523</QtdeItem>
+							<ValorIndItem>3,22</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>7 unidades de peças de reposição, devido ao
+								desgaste pelo uso da máquina de aspersão perante a realização
+								dos testes, no período de 01/12 a 31/12/2015
+							</JustificaItem>
+							<QtdeItem>7</QtdeItem>
+							<ValorIndItem>1.495,40</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>10 litros de álcool PA; consumível necessário para
+								a limpeza de amostras, para os testes a serem realizado no
+								período de 01/12 a 30/12/2015
+							</JustificaItem>
+							<QtdeItem>10</QtdeItem>
+							<ValorIndItem>19,50</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>400kg de areia fina N100; insumo necessário para a
+								realização de teste de Abrasão, no período de 01/12/15 a
+								29/02/2016
+							</JustificaItem>
+							<QtdeItem>400</QtdeItem>
+							<ValorIndItem>4,50</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>1 jogo de peneiras; insumo necessário para a
+								realização de teste de Abrasão, no período de 01/12/15 a
+								29/02/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>3.506,90</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2000Kg de Óxido de Alumínio, necessário para a
+								realização de testes do revestimento, no período de 01/12/2015 a
+								30/01/2016
+							</JustificaItem>
+							<QtdeItem>2000</QtdeItem>
+							<ValorIndItem>4,44</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>380Kg de gás propano, necessário para a realização
+								de testes do revestimento, no período de 04/01/2016 a 31/01/2016
+							</JustificaItem>
+							<QtdeItem>380</QtdeItem>
+							<ValorIndItem>7,79</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>100Kg de Carb de Tungstênio, necessário para a
+								realização de testes do revestimento, no período de 04/01 a
+								28/02/2015
+							</JustificaItem>
+							<QtdeItem>100</QtdeItem>
+							<ValorIndItem>406,90</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>100Kg de Carb de Tungstênio, necessário para a
+								realização de testes do revestimento, no período de 04/01 a
+								28/02/2015
+							</JustificaItem>
+							<QtdeItem>100</QtdeItem>
+							<ValorIndItem>406,90</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3196m3 gás Oxigênio, necessário para a realização
+								de testes do revestimento, no período de 04/01/2016 a 31/01/2016
+							</JustificaItem>
+							<QtdeItem>3196</QtdeItem>
+							<ValorIndItem>4,90</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>40m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 04/01/2016 a
+								31/01/2016
+							</JustificaItem>
+							<QtdeItem>40</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>50m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 04/01/2016 a
+								31/01/2016
+							</JustificaItem>
+							<QtdeItem>50</QtdeItem>
+							<ValorIndItem>8,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>7 unidades de peças de reposição, devido ao
+								desgaste pelo uso da máquina de aspersão perante a realização
+								dos testes, no período de 04/01 a 31/01/2016
+							</JustificaItem>
+							<QtdeItem>7</QtdeItem>
+							<ValorIndItem>1.454,45</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>1 unidade de Disco de Corte Diamantado; consumível
+								necessário para a preparação de amostras, para os testes a serem
+								realizado no período de 04/01 a 31/01/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>3.092,82</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2 unidades de Disco de Corte; consumível
+								necessário para a preparação de amostras, para os testes a serem
+								realizado no período de 04/01 a 31/01/2016
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>775,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3 unidades de Disco de Corte; consumível
+								necessário para a preparação de amostras, para os testes a serem
+								realizado no período de 04/01 a 31/01/2016
+							</JustificaItem>
+							<QtdeItem>3</QtdeItem>
+							<ValorIndItem>250,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>200Kg de Carb de Tungstênio, necessário para a
+								realização de testes do revestimento, no período de 04/01 a
+								28/02/2015
+							</JustificaItem>
+							<QtdeItem>200</QtdeItem>
+							<ValorIndItem>406,90</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2157m3 gás Oxigênio, necessário para a realização
+								de testes do revestimento, no período de 01/02/2016 a 29/02/2016
+							</JustificaItem>
+							<QtdeItem>2157</QtdeItem>
+							<ValorIndItem>5,20</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>400Kg de gás propano, necessário para a realização
+								de testes do revestimento, no período de 04/01/2016 a 31/01/2016
+							</JustificaItem>
+							<QtdeItem>400</QtdeItem>
+							<ValorIndItem>7,79</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>50m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/02/2016 a
+								29/02/2016
+							</JustificaItem>
+							<QtdeItem>50</QtdeItem>
+							<ValorIndItem>8,80</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/02/2016 a
+								29/02/2016
+							</JustificaItem>
+							<QtdeItem>60</QtdeItem>
+							<ValorIndItem>8,80</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/02/2016 a
+								29/02/2016
+							</JustificaItem>
+							<QtdeItem>60</QtdeItem>
+							<ValorIndItem>8,80</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>5 unidades de peças de reposição, devido ao
+								desgaste pelo uso da máquina de aspersão perante a realização
+								dos testes, no período de 01/02 a 29/02/2016
+							</JustificaItem>
+							<QtdeItem>5</QtdeItem>
+							<ValorIndItem>1.746,20</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>2000Kg de Óxido de Alumínio, necessário para a
+								realização de testes do revestimento, no período de 01/02/2016 a
+								29/02/2016
+							</JustificaItem>
+							<QtdeItem>2000</QtdeItem>
+							<ValorIndItem>4,76</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/03/2016 a
+								31/03/2016
+							</JustificaItem>
+							<QtdeItem>60</QtdeItem>
+							<ValorIndItem>8,80</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
+								realização de testes do revestimento, no período de 01/03/2016 a
+								31/03/2016
+							</JustificaItem>
+							<QtdeItem>60</QtdeItem>
+							<ValorIndItem>8,80</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>12 ferramentas necessárias para fazer os testes e
+								adaptações de equipamentos, no período de 01/12/2015 a
+								29/02/2016
+							</JustificaItem>
+							<QtdeItem>12</QtdeItem>
+							<ValorIndItem>28,86</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>02 ferramentas necessárias para fazer os testes e
+								adaptações de equipamentos, no período de 01/12/2015 a
+								29/02/2016
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>68,94</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>01 Fluxômetro de Gases DJC302, devido ao desgaste
+								constante do uso da máquina de aspersão perante a realização dos
+								testes, desde 02/11/2015, período de realização dos testes e
+								simulação de aplicação (Etapa de Validação)
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>12.423,17</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+					</CustoCatContabil>
+
+
+					<CustoCatContabil>
+						<CategoriaContabil>ST</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Contratação do serviço de usinagem de peças,
+								referente à adaptação de equipamento para realização dos testes
+								de dobramento
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.890,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Fabricação e aquisição de cantoneiras e chapas,
+								necessárias para fabricação de dispositivo para testes do
+								equipamento HVOF
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>234,66</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Fabricação e aquisição de mangueiras, necessárias
+								para a adequação dos equipamentos de jateamento e HVOF
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1145,38</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Realização da montagem do equipamento de abrasão,
+								a ser realizada no período de 01/11 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>46.140,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Fabricação de peças (corpos de prova), a ser
+								realizada no período de 01/11 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>4.505,50</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Fabricação e aquisição de mangueiras, necessárias
+								para a adequação do equipamento de jateamento, utilizado nos
+								testes a serem realizados, no período de 01/11 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.258,50</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Fabricação de peças para o equipamento de ensaio
+								de abrasão
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>8.975,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Fabricação de peças (corpos de prova), a ser
+								realizada no período de 04/01 a 31/01/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>3.497,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Calibração do equipamento rugosímetro, a ser
+								realizada no período de 01/12 a 30/12/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>428,72</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Calibração do equipamento microdurômetro, a ser
+								realizada no período de 01/12 a 30/12/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>450,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+
+					</CustoCatContabil>
+
+
+
+
+
+					<CustoCatContabil>
+						<CategoriaContabil>VD</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Voe Azul Passagens Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagem aérea para o pesquisador
+								Jeferson Porto, para participação de reunião Inaugural no
+								período de 27/04/2015 a 30/04/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.424,54</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Voe Azul Passagens Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagens aéreas para o pesquisador
+								Darlan Geremia para participação de reunião Inaugural no período
+								de 27/04/2015 a 30/04/2015
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>1.271,90</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Voe Azul Passagens Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagem aérea para o pesquisador
+								Jeferson Porto, para participação de reunião Inaugural no
+								período de 27/04/2015 a 30/04/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>939,25</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Voe Azul Passagens Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagem aérea para o pesquisador
+								Jeferson Porto está realizando inspeção à unidade geradora UG01
+								de Jirau, no período de 23/06 a 24/07/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.149,54</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Voe Azul Passagens Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagem aérea para o pesquisador
+								Jeferson Porto está realizando inspeção à unidade geradora UG01
+								de Jirau, no período de 23/06 a 24/07/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>995,25</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Gol Linhas Aéreas Inteligentes</NomeItem>
+							<JustificaItem>Aquisição de passagens aéreas para os
+								pesquisadores Leonardo Geremia e Filipe Guerin, para
+								participação da reunião para discussão das soluções e conceitos
+								e visita ao ambiente de operação do Robô. Reunião realizada em
+								Porto Velho/RO, nos dias 14 e 15/10/2015
+							</JustificaItem>
+							<QtdeItem>4</QtdeItem>
+							<ValorIndItem>1.181,40</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesas com alimentação e gasolina</NomeItem>
+							<JustificaItem>Despesa com alimentação de Leonardo Geremia e
+								Filipe Guerin e abastecimento de veículo durante reunião
+								realizada em Porto Velho/RO, nos dias 14 e 15/10/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>273,80</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Gol Linhas Aéreas Inteligentes</NomeItem>
+							<JustificaItem>Aquisição de passagens aéreas para o colaborador
+								Gabriel Cogo, que esteve realizando inspeção de desgaste na
+								turbina de Jirau, nos dias 28 e 29/10/2015
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>1.275,90</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesas com alimentação e gasolina</NomeItem>
+							<JustificaItem>Despesa com alimentação de Gabriel Cogo e
+								abastecimento de veículo durante inspeção de desgaste realizada
+								em Porto Velho/RO, nos dias 28 e 29/10/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>252,31</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Voe Azul Passagens Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagens aéreas para o pesquisador
+								Jeferson Porto, que esteve realizando inspeção de desgaste na
+								turbina de Jirau, na semana de 16/11 a 20/11/15
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>1.090,23</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>TAM Linhas Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagens aéreas para o pesquisador
+								Jeferson Porto, que esteve na semana de 27/01 a 05/02/2016,
+								realizando visita à Unidade Geradora 26
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>1.307,45</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Voe Azul Passagens Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagens aéreas para os
+								pesquisadores Darlan Geremia, Leonardo Geremia e Gabriel Cogo,
+								que estiveram nos dias 17/02 e 18/02, realizando reunião de
+								acompanhamento com a equipe envolvida no projeto
+							</JustificaItem>
+							<QtdeItem>6</QtdeItem>
+							<ValorIndItem>2.448,53</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com Locação de Veículo</NomeItem>
+							<JustificaItem>Despesa com locação de veículo durante reunião de
+								acompanhamentoe realizada nos dias 17/02 e 18/02/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>382,80</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com abastecimento veículo</NomeItem>
+							<JustificaItem>Despesa com abastecimento de veículo durante
+								reunião de acompanhamentoe realizada nos dias 17/02 e 18/02/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>143,19</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com abastecimento veículo</NomeItem>
+							<JustificaItem>Despesa com abastecimento de veículo durante
+								reunião de acompanhamentoe realizada nos dias 17/02 e 18/02/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>66,30</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com alimentação</NomeItem>
+							<JustificaItem>Despesa com alimentação durante reunião de
+								acompanhamentoe realizada nos dias 17/02 e 18/02/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>92,25</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com alimentação</NomeItem>
+							<JustificaItem>Despesa com alimentação durante reunião de
+								acompanhamentoe realizada nos dias 17/02 e 18/02/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>22,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Avianca Linhas Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagens aéreas para o pesquisador
+								Gabriel Cogo, que esteve no dia 31/03/2016 (quinta-feira),
+								realizando visita ao laboratório da USP, onde foram realizados
+								os ensaios de cavitação, a fim de auditar o procedimento de
+								ensaio e realizar testes de cavitação no local
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>221,92</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com alimentação</NomeItem>
+							<JustificaItem>Despesa com alimentação do pesquisador Gabriel, no
+								dia 31/03/2016 (quinta-feira), durante visita ao laboratório da
+								USP
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>46,46</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com táxi</NomeItem>
+							<JustificaItem>Despesa com locomoção (táxi) do pesquisador
+								Gabriel, no dia 31/03/2016 (quinta-feira), durante visita ao
+								laboratório da USP
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>248,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com translado (ônibus)</NomeItem>
+							<JustificaItem>Despesa com locomoção (ônibus) do pesquisador
+								Gabriel, no dia 31/03/2016 (quinta-feira), durante visita ao
+								laboratório da USP
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>45,50</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Gol Linhas Aéreas Inteligentes</NomeItem>
+							<JustificaItem>Aquisição de passagens aéreas para o pesquisador
+								Gabriel Cogo, que esteve no período de 17/05 a 19/05/2016,
+								realizando a elaboração do relatório final da 1ª etapa do
+								projeto, juntamente com a Fundação COPPETEC
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>248,46</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com hospedagem</NomeItem>
+							<JustificaItem>Despesa com hospedagem do pesquisador Gabriel
+								Cogo, durante reunião nos dias 17/05 a 19/05 para a elaboração
+								do relatório final da 1ª etapa do projeto junto à Fundação
+								COPPETEC
+							</JustificaItem>
+							<QtdeItem>2</QtdeItem>
+							<ValorIndItem>377,05</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com alimentação</NomeItem>
+							<JustificaItem>Despesa com alimentação do pesquisador Gabriel
+								Cogo, durante reunião nos dias 17/05 a 19/05 para a elaboração
+								do relatório final da 1ª etapa do projeto junto à Fundação
+								COPPETEC
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>30,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com alimentação</NomeItem>
+							<JustificaItem>Despesa com alimentação do pesquisador Gabriel
+								Cogo, durante reunião nos dias 17/05 a 19/05 para a elaboração
+								do relatório final da 1ª etapa do projeto junto à Fundação
+								COPPETEC
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>29,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com alimentação</NomeItem>
+							<JustificaItem>Despesa com alimentação do pesquisador Gabriel
+								Cogo, durante reunião nos dias 17/05 a 19/05 para a elaboração
+								do relatório final da 1ª etapa do projeto junto à Fundação
+								COPPETEC
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>19,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com alimentação</NomeItem>
+							<JustificaItem>Despesa com alimentação do pesquisador Gabriel
+								Cogo, durante reunião nos dias 17/05 a 19/05 para a elaboração
+								do relatório final da 1ª etapa do projeto junto à Fundação
+								COPPETEC
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>59,80</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com táxi</NomeItem>
+							<JustificaItem>Despesa com locomoção (táxi) do pesquisador
+								Gabriel Cogo, durante reunião nos dias 17/05 a 19/05 para a
+								elaboração do relatório final da 1ª etapa do projeto junto à
+								Fundação COPPETEC
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>25,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Voe Azul Passagens Aéreas</NomeItem>
+							<JustificaItem>Aquisição de passagens aéreas para os
+								pesquisadores Darlan Geremia e Gabriel Cogo, que estiveram no
+								período de 30/05 a 31/05/2016, participando do encerramento da
+								primeira etapa do projeto
+							</JustificaItem>
+							<QtdeItem>4</QtdeItem>
+							<ValorIndItem>67,67</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesa com Locação de Veículo</NomeItem>
+							<JustificaItem>Locação de veículo para deslocamentos dos
+								pesquisadores Darlan Geremia e Gabriel Cogo, que estiveram no
+								período de 30/05 a 31/05/2016, participando do encerramento da
+								primeira etapa do projeto
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>254,25</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Despesas com alimentação e gasolina</NomeItem>
+							<JustificaItem>Despesas com alimentação e gasolina
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>687,20</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+					</CustoCatContabil>
+
+					<CustoCatContabil>
+						<CategoriaContabil>OU</CategoriaContabil>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF201525 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.053,73</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF201543 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.714,43</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF201553 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>619,93</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF201556 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>4.696,09</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF201561 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.522,13</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF20161 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>9.266,20</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF20166 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>2.082,07</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF201612 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>4.085,48</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF201617 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>4.590,88</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Frete referente 300Kg de CARB. DE TUNGSTÊNIO
+								necessário para a realização de testes do revestimento, no
+								período de 01/09 a 31/10/2015, descrito no Ofício 17/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.188,34</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Frete referente 1.000Kg de ÓXIDO DE ALUMÍNIO
+								necessário para a realização de testes do revestimento, no
+								período de 01/10 a 31/10/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.046,98</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Frete referente 320Kg de CARB. DE TUNGSTÊNIO
+								necessário para a realização de testes do revestimento, no
+								período de 01/11 a 31/12/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.300,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Frete referente 2.000Kg de ÓXIDO DE ALUMÍNIO
+								necessário para a realização de testes do revestimento, no
+								período de 01/11 a 30/11/2015
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.300,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Frete referente 2.000Kg de ÓXIDO DE ALUMÍNIO
+								necessário para a realização de testes do revestimento, no
+								período de 01/12 a 30/01/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>948,48</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Frete referente 200Kg de CARB. DE TUNGSTÊNIO
+								necessário para a realização de testes do revestimento, no
+								período de 01/01 a 29/02/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>480,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Frete referente 200Kg de CARB. DE TUNGSTÊNIO
+								necessário para a realização de testes do revestimento, no mês
+								de fevereiro/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>900,00</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>Frete referente 2.000Kg de ÓXIDO DE ALUMÍNIO
+								necessário para a realização de testes do revestimento, no mês
+								de fevereiro/2016
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>1.124,30</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+						<ItemDespesa>
+							<NomeItem>Texto</NomeItem>
+							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
+								no período, conforme NF201648 emitida por Rijeza Metalurgia
+							</JustificaItem>
+							<QtdeItem>1</QtdeItem>
+							<ValorIndItem>931,89</ValorIndItem>
+							<TipoItem>N</TipoItem>
+							<ItemLabE>N</ItemLabE>
+							<ItemLabN>N</ItemLabN>
+						</ItemDespesa>
+					</CustoCatContabil>
+				</DestRecursosExec>
+
+
 				<DestRecursosExec>
 
 					<CNPJExec>7206099900175</CNPJExec>
