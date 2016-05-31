@@ -698,7 +698,7 @@
 					<CustoCatContabil>
 						<CategoriaContabil>MC</CategoriaContabil>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+							<NomeItem>Gás GLP</NomeItem>
 							<JustificaItem>2000Kg de Gás GLP necessário para a realização de
 								testes do revestimento, no período de 23/06 a 24/07/2015
 							</JustificaItem>
@@ -709,7 +709,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+	
+						<NomeItem>Matéria prima em pó</NomeItem>
 							<JustificaItem>30Kg de Matéria-Prima em Pó, necessário para a
 								realização de testes do revestimento, no período de 23/06 a
 								24/07/2015
@@ -721,7 +722,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Matéria prima em pó</NomeItem>
 							<JustificaItem>20Kg de Matéria-Prima em Pó, necessário para a
 								realização de testes do revestimento, no período de 23/06 a
 								24/07/2015
@@ -733,7 +735,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Gás nitrogênio</NomeItem>
 							<JustificaItem>54 m3 de Gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 23/06 a
 								24/07/2015
@@ -745,7 +748,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Gás propano</NomeItem>
 							<JustificaItem>500Kg de gás propano, necessário para a realização
 								de testes do revestimento, no período de 01/09/2015 a 30/09/2015
 							</JustificaItem>
@@ -756,7 +760,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Carb de Tungstênio</NomeItem>
 							<JustificaItem>300Kg de Carb de Tungstênio, necessário para a
 								realização de testes do revestimento, no período de 01/09 a
 								31/10/2015
@@ -768,7 +773,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Gás Nitrogênio</NomeItem>
 							<JustificaItem>110m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/09/2015 a
 								30/09/2015
@@ -780,7 +786,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Gás Nitrogênio</NomeItem>
 							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/09/2015 a
 								30/09/2015
@@ -792,7 +799,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Gás Nitrogênio</NomeItem>
 							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/09/2015 a
 								30/09/2015
@@ -804,7 +812,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Gás Oxigênio</NomeItem>
 							<JustificaItem>3595m3 gás Oxigênio, necessário para a realização
 								de testes do revestimento, no período de 01/09/2015 a 30/09/2015
 							</JustificaItem>
@@ -815,7 +824,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Gás Oxigênio</NomeItem>
 							<JustificaItem>3794m3 gás Oxigênio, necessário para a realização
 								de testes do revestimento, no período de 01/09/2015 a 30/09/2015
 							</JustificaItem>
@@ -826,7 +836,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+                                                        <NomeItem>unidades de peça de reposição</NomeItem>
 							<JustificaItem>4 unidades de peças de reposição, devido ao
 								desgaste constante do uso da máquina de aspersão perante a
 								realização dos testes, no período de 01/09 a 30/09/2015
@@ -838,7 +849,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>unidades de peça de reposição</NomeItem>
 							<JustificaItem>2 unidades de peças de reposição, devido ao
 								desgaste pelo uso da máquina de aspersão perante a realização
 								dos testes, no período de 15/09 a 30/09/2015
@@ -850,7 +862,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>unidades de peça de reposição</NomeItem>
 							<JustificaItem>10 unidades de peças de reposição, devido ao
 								desgaste pelo uso da máquina de aspersão perante a realização
 								dos testes, no período de 01/10 a 31/10/2015
@@ -862,7 +875,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/10/2015 a
 								31/10/2015
@@ -874,7 +888,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/10/2015 a
 								31/10/2015
@@ -886,7 +901,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/10/2015 a
 								31/10/2015
@@ -898,7 +914,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Oxigênio</NomeItem>
 							<JustificaItem>2522m3 gás Oxigênio, necessário para a realização
 								de testes do revestimento, no período de 01/10/2015 a 31/10/2015
 							</JustificaItem>
@@ -909,7 +926,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Unidades de rolamento</NomeItem>
 							<JustificaItem>4 unidades de rolamentos para dispositivo de
 								ensaio de dobramento para adaptação de máquina de ensaios
 								universal
@@ -921,7 +939,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás propano</NomeItem>
 							<JustificaItem>400Kg de gás propano, necessário para a realização
 								de testes do revestimento, no período de 01/10/2015 a 31/10/2015
 							</JustificaItem>
@@ -932,7 +951,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás propano</NomeItem>
 							<JustificaItem>400Kg de gás propano, necessário para a realização
 								de testes do revestimento, no período de 01/10/2015 a 31/10/2015
 							</JustificaItem>
@@ -943,7 +963,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Óxido de Alumínio</NomeItem>
 							<JustificaItem>1000Kg de Óxido de Alumínio, necessário para a
 								realização de testes do revestimento, no período de 01/10/2015 a
 								31/10/2015
@@ -955,7 +976,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/11/2015 a
 								30/11/2015
@@ -967,7 +989,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/11/2015 a
 								30/11/2015
@@ -979,7 +1002,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/11/2015 a
 								30/11/2015
@@ -991,7 +1015,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Oxigênio</NomeItem>
 							<JustificaItem>3196m3 gás Oxigênio, necessário para a realização
 								de testes do revestimento, no período de 01/11/2015 a 30/11/2015
 							</JustificaItem>
@@ -1002,7 +1027,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Oxigênio</NomeItem>
 							<JustificaItem>3995m3 gás Oxigênio, necessário para a realização
 								de testes do revestimento, no período de 01/11/2015 a 30/11/2015
 							</JustificaItem>
@@ -1013,7 +1039,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Óxido de Alumínio</NomeItem>
 							<JustificaItem>2000Kg de Óxido de Alumínio, necessário para a
 								realização de testes do revestimento, no período de 01/11/2015 a
 								30/11/2015
@@ -1025,7 +1052,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás propano</NomeItem>
 							<JustificaItem>400Kg de gás propano, necessário para a realização
 								de testes do revestimento, no período de 01/11/2015 a 30/11/2015
 							</JustificaItem>
@@ -1036,7 +1064,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Lixa Diamantada</NomeItem>
 							<JustificaItem>2 unidades de Lixa Diamantada; consumível
 								necessário para a preparação de amostras, para os testes a serem
 								realizado no período de 01/11 a 30/11/2015
@@ -1048,7 +1077,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Disco de Corte Diamantado</NomeItem>
 							<JustificaItem>1 unidade de Disco de Corte Diamantado; consumível
 								necessário para a preparação de amostras, para os testes a serem
 								realizado no período de 01/11 a 30/11/2015
@@ -1060,7 +1090,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>peças de reposição</NomeItem>
 							<JustificaItem>9 unidades de peças de reposição, devido ao
 								desgaste pelo uso da máquina de aspersão perante a realização
 								dos testes, no período de 01/11 a 30/11/2015
@@ -1072,7 +1103,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>peças de reposição</NomeItem>
 							<JustificaItem>1 unidade de peça de reposição, devido ao desgaste
 								pelo uso da máquina de aspersão perante a realização dos testes,
 								no período de 01/11 a 30/11/2015
@@ -1084,7 +1116,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Carb de Tungstênio</NomeItem>
 							<JustificaItem>300Kg de Carb de Tungstênio, necessário para a
 								realização de testes do revestimento, no período de 01/11 a
 								31/12/2015
@@ -1096,7 +1129,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Carb de Tungstênio</NomeItem>
 							<JustificaItem>100Kg de Carb de Tungstênio, necessário para a
 								realização de testes do revestimento, no período de 01/11 a
 								31/12/2015
@@ -1108,7 +1142,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/12/2015 a
 								31/12/2015
@@ -1120,7 +1155,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>70m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/12/2015 a
 								31/12/2015
@@ -1132,7 +1168,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás propano</NomeItem>
 							<JustificaItem>500Kg de gás propano, necessário para a realização
 								de testes do revestimento, no período de 01/12/2015 a 31/12/2015
 							</JustificaItem>
@@ -1143,7 +1180,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Oxigênio</NomeItem>
 							<JustificaItem>2523m3 gás Oxigênio, necessário para a realização
 								de testes do revestimento, no período de 01/12/2015 a 31/12/2015
 							</JustificaItem>
@@ -1154,7 +1192,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>peças de reposição</NomeItem>
 							<JustificaItem>7 unidades de peças de reposição, devido ao
 								desgaste pelo uso da máquina de aspersão perante a realização
 								dos testes, no período de 01/12 a 31/12/2015
@@ -1166,7 +1205,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>álcool PA</NomeItem>
 							<JustificaItem>10 litros de álcool PA; consumível necessário para
 								a limpeza de amostras, para os testes a serem realizado no
 								período de 01/12 a 30/12/2015
@@ -1178,7 +1218,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>areia fina N100</NomeItem>
 							<JustificaItem>400kg de areia fina N100; insumo necessário para a
 								realização de teste de Abrasão, no período de 01/12/15 a
 								29/02/2016
@@ -1190,7 +1231,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>jogo de peneiras</NomeItem>
 							<JustificaItem>1 jogo de peneiras; insumo necessário para a
 								realização de teste de Abrasão, no período de 01/12/15 a
 								29/02/2016
@@ -1202,7 +1244,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Óxido de Alumínio</NomeItem>
 							<JustificaItem>2000Kg de Óxido de Alumínio, necessário para a
 								realização de testes do revestimento, no período de 01/12/2015 a
 								30/01/2016
@@ -1214,7 +1257,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás propano</NomeItem>
 							<JustificaItem>380Kg de gás propano, necessário para a realização
 								de testes do revestimento, no período de 04/01/2016 a 31/01/2016
 							</JustificaItem>
@@ -1225,7 +1269,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Carb de Tungstênio</NomeItem>
 							<JustificaItem>100Kg de Carb de Tungstênio, necessário para a
 								realização de testes do revestimento, no período de 04/01 a
 								28/02/2015
@@ -1237,7 +1282,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Carb de Tungstênio</NomeItem>
 							<JustificaItem>100Kg de Carb de Tungstênio, necessário para a
 								realização de testes do revestimento, no período de 04/01 a
 								28/02/2015
@@ -1249,7 +1295,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Oxigênio</NomeItem>
 							<JustificaItem>3196m3 gás Oxigênio, necessário para a realização
 								de testes do revestimento, no período de 04/01/2016 a 31/01/2016
 							</JustificaItem>
@@ -1260,7 +1307,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>40m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 04/01/2016 a
 								31/01/2016
@@ -1272,7 +1320,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>50m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 04/01/2016 a
 								31/01/2016
@@ -1284,7 +1333,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>peças de reposição</NomeItem>
 							<JustificaItem>7 unidades de peças de reposição, devido ao
 								desgaste pelo uso da máquina de aspersão perante a realização
 								dos testes, no período de 04/01 a 31/01/2016
@@ -1296,7 +1346,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Disco de Corte Diamantado</NomeItem>
 							<JustificaItem>1 unidade de Disco de Corte Diamantado; consumível
 								necessário para a preparação de amostras, para os testes a serem
 								realizado no período de 04/01 a 31/01/2016
@@ -1308,7 +1359,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Disco de Corte</NomeItem>
 							<JustificaItem>2 unidades de Disco de Corte; consumível
 								necessário para a preparação de amostras, para os testes a serem
 								realizado no período de 04/01 a 31/01/2016
@@ -1320,7 +1372,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Disco de Corte</NomeItem>
 							<JustificaItem>3 unidades de Disco de Corte; consumível
 								necessário para a preparação de amostras, para os testes a serem
 								realizado no período de 04/01 a 31/01/2016
@@ -1332,7 +1385,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Carb de Tungstênio</NomeItem>
 							<JustificaItem>200Kg de Carb de Tungstênio, necessário para a
 								realização de testes do revestimento, no período de 04/01 a
 								28/02/2015
@@ -1344,7 +1398,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Oxigênio</NomeItem>
 							<JustificaItem>2157m3 gás Oxigênio, necessário para a realização
 								de testes do revestimento, no período de 01/02/2016 a 29/02/2016
 							</JustificaItem>
@@ -1355,7 +1410,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás propano</NomeItem>
 							<JustificaItem>400Kg de gás propano, necessário para a realização
 								de testes do revestimento, no período de 04/01/2016 a 31/01/2016
 							</JustificaItem>
@@ -1366,7 +1422,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>50m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/02/2016 a
 								29/02/2016
@@ -1378,7 +1435,7 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/02/2016 a
 								29/02/2016
@@ -1390,7 +1447,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/02/2016 a
 								29/02/2016
@@ -1402,7 +1460,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>peças de reposição</NomeItem>
 							<JustificaItem>5 unidades de peças de reposição, devido ao
 								desgaste pelo uso da máquina de aspersão perante a realização
 								dos testes, no período de 01/02 a 29/02/2016
@@ -1414,7 +1473,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Óxido de Alumínio</NomeItem>
 							<JustificaItem>2000Kg de Óxido de Alumínio, necessário para a
 								realização de testes do revestimento, no período de 01/02/2016 a
 								29/02/2016
@@ -1426,7 +1486,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/03/2016 a
 								31/03/2016
@@ -1438,7 +1499,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>gás Nitrogênio</NomeItem>
 							<JustificaItem>60m3 de gás Nitrogênio, necessário para a
 								realização de testes do revestimento, no período de 01/03/2016 a
 								31/03/2016
@@ -1450,7 +1512,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ferramentas</NomeItem>
 							<JustificaItem>12 ferramentas necessárias para fazer os testes e
 								adaptações de equipamentos, no período de 01/12/2015 a
 								29/02/2016
@@ -1462,7 +1525,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ferramentas</NomeItem>
 							<JustificaItem>02 ferramentas necessárias para fazer os testes e
 								adaptações de equipamentos, no período de 01/12/2015 a
 								29/02/2016
@@ -1474,7 +1538,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Fluxômetro de Gases DJC302</NomeItem>
 							<JustificaItem>01 Fluxômetro de Gases DJC302, devido ao desgaste
 								constante do uso da máquina de aspersão perante a realização dos
 								testes, desde 02/11/2015, período de realização dos testes e
@@ -1492,7 +1557,8 @@
 					<CustoCatContabil>
 						<CategoriaContabil>ST</CategoriaContabil>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>usinagem de peças</NomeItem>
 							<JustificaItem>Contratação do serviço de usinagem de peças,
 								referente à adaptação de equipamento para realização dos testes
 								de dobramento
@@ -1504,7 +1570,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>cantoneiras e chapas</NomeItem>
 							<JustificaItem>Fabricação e aquisição de cantoneiras e chapas,
 								necessárias para fabricação de dispositivo para testes do
 								equipamento HVOF
@@ -1516,7 +1583,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>mangueiras</NomeItem>
 							<JustificaItem>Fabricação e aquisição de mangueiras, necessárias
 								para a adequação dos equipamentos de jateamento e HVOF
 							</JustificaItem>
@@ -1527,7 +1595,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>montagem do equipamento de abrasão</NomeItem>
 							<JustificaItem>Realização da montagem do equipamento de abrasão,
 								a ser realizada no período de 01/11 a 30/11/2015
 							</JustificaItem>
@@ -1538,18 +1607,23 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Fabricação de peças</NomeItem>
 							<JustificaItem>Fabricação de peças (corpos de prova), a ser
 								realizada no período de 01/11 a 30/11/2015
 							</JustificaItem>
 							<QtdeItem>1</QtdeItem>
 							<ValorIndItem>4.505,50</ValorIndItem>
 							<TipoItem>N</TipoItem>
+
 							<ItemLabE>N</ItemLabE>
+
 							<ItemLabN>N</ItemLabN>
+
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>mangueiras</NomeItem>
 							<JustificaItem>Fabricação e aquisição de mangueiras, necessárias
 								para a adequação do equipamento de jateamento, utilizado nos
 								testes a serem realizados, no período de 01/11 a 30/11/2015
@@ -1557,11 +1631,15 @@
 							<QtdeItem>1</QtdeItem>
 							<ValorIndItem>1.258,50</ValorIndItem>
 							<TipoItem>N</TipoItem>
+
 							<ItemLabE>N</ItemLabE>
+
 							<ItemLabN>N</ItemLabN>
+
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Fabricação de peças</NomeItem>
 							<JustificaItem>Fabricação de peças para o equipamento de ensaio
 								de abrasão
 							</JustificaItem>
@@ -1572,7 +1650,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Fabricação de peças</NomeItem>
 							<JustificaItem>Fabricação de peças (corpos de prova), a ser
 								realizada no período de 04/01 a 31/01/2016
 							</JustificaItem>
@@ -1583,7 +1662,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Calibração do equipamento rugosímetro</NomeItem>
 							<JustificaItem>Calibração do equipamento rugosímetro, a ser
 								realizada no período de 01/12 a 30/12/2015
 							</JustificaItem>
@@ -1594,7 +1674,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Calibração do equipamento microdurômetr</NomeItem>
 							<JustificaItem>Calibração do equipamento microdurômetro, a ser
 								realizada no período de 01/12 a 30/12/2015
 							</JustificaItem>
@@ -1997,7 +2078,8 @@
 					<CustoCatContabil>
 						<CategoriaContabil>OU</CategoriaContabil>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF201525 emitida por Rijeza Metalurgia
 							</JustificaItem>
@@ -2008,7 +2090,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF201543 emitida por Rijeza Metalurgia
 							</JustificaItem>
@@ -2019,7 +2102,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF201553 emitida por Rijeza Metalurgia
 							</JustificaItem>
@@ -2030,7 +2114,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF201556 emitida por Rijeza Metalurgia
 							</JustificaItem>
@@ -2041,7 +2126,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF201561 emitida por Rijeza Metalurgia
 							</JustificaItem>
@@ -2052,7 +2138,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF20161 emitida por Rijeza Metalurgia
 							</JustificaItem>
@@ -2063,7 +2150,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF20166 emitida por Rijeza Metalurgia
 							</JustificaItem>
@@ -2074,7 +2162,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF201612 emitida por Rijeza Metalurgia
 							</JustificaItem>
@@ -2085,7 +2174,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF201617 emitida por Rijeza Metalurgia
 							</JustificaItem>
@@ -2096,7 +2186,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Frete referente 300Kg de CARB. DE TUNGSTÊNIO</NomeItem>
 							<JustificaItem>Frete referente 300Kg de CARB. DE TUNGSTÊNIO
 								necessário para a realização de testes do revestimento, no
 								período de 01/09 a 31/10/2015, descrito no Ofício 17/2015
@@ -2108,7 +2199,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Frete referente 1.000Kg de ÓXIDO DE ALUMÍNIO</NomeItem>
 							<JustificaItem>Frete referente 1.000Kg de ÓXIDO DE ALUMÍNIO
 								necessário para a realização de testes do revestimento, no
 								período de 01/10 a 31/10/2015
@@ -2120,7 +2212,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Frete referente 320Kg de CARB. DE TUNGSTÊNIO</NomeItem>
 							<JustificaItem>Frete referente 320Kg de CARB. DE TUNGSTÊNIO
 								necessário para a realização de testes do revestimento, no
 								período de 01/11 a 31/12/2015
@@ -2132,7 +2225,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Frete referente 2.000Kg de ÓXIDO DE ALUMÍNIO</NomeItem>
 							<JustificaItem>Frete referente 2.000Kg de ÓXIDO DE ALUMÍNIO
 								necessário para a realização de testes do revestimento, no
 								período de 01/11 a 30/11/2015
@@ -2144,7 +2238,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Frete referente 2.000Kg de ÓXIDO DE ALUMÍNIO</NomeItem>
 							<JustificaItem>Frete referente 2.000Kg de ÓXIDO DE ALUMÍNIO
 								necessário para a realização de testes do revestimento, no
 								período de 01/12 a 30/01/2016
@@ -2156,7 +2251,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Frete referente 200Kg de CARB. DE TUNGSTÊNIO</NomeItem>
 							<JustificaItem>Frete referente 200Kg de CARB. DE TUNGSTÊNIO
 								necessário para a realização de testes do revestimento, no
 								período de 01/01 a 29/02/2016
@@ -2168,7 +2264,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Frete referente 200Kg de CARB. DE TUNGSTÊNIO</NomeItem>
 							<JustificaItem>Frete referente 200Kg de CARB. DE TUNGSTÊNIO
 								necessário para a realização de testes do revestimento, no mês
 								de fevereiro/2016
@@ -2180,7 +2277,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem>Frete referente 2.000Kg de ÓXIDO DE ALUMÍNIO</NomeItem>
 							<JustificaItem>Frete referente 2.000Kg de ÓXIDO DE ALUMÍNIO
 								necessário para a realização de testes do revestimento, no mês
 								de fevereiro/2016
@@ -2192,7 +2290,8 @@
 							<ItemLabN>N</ItemLabN>
 						</ItemDespesa>
 						<ItemDespesa>
-							<NomeItem>Texto</NomeItem>
+
+							<NomeItem> ISS</NomeItem>
 							<JustificaItem>3% de ISS sobre o total de despesas reembolsadas
 								no período, conforme NF201648 emitida por Rijeza Metalurgia
 							</JustificaItem>
